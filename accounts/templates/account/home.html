@@ -4,9 +4,16 @@
 {% block title %}Brian Osora{% endblock %}
 
 {% block content %}
+
     <h1>Brian Osora Isaboke</h1>
     <p>I am a Software Developer</p>
     <img src="{% static 'images/portfolio.png' %}" alt="portfolio" height="400" width="400" style="object-fit:contain"/>
-    <a href="{% url "login" %}">Log In</a>
+
+    {% if request.user.is_authenticated %}
+        <h1>Techstack</h1>
+    {% else %}
+        <a href="{% url "login" %}">Log In</a>
+    {% endif %}
+
 {% endblock %}
 
