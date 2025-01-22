@@ -10,13 +10,18 @@
     <img src="{% static 'images/portfolio.png' %}" alt="portfolio" height="400" width="400" style="object-fit:contain"/>
 
     {% if request.user.is_authenticated %}
+
         <h1>Techstack</h1>
         <form method="post" action={% url "logout" %}>
           <input type="submit" name="logout" id="logout" value="Log Out"/>
           {% csrf_token %}
         </form>
+        <a href="{% url "password_change" %}">Change Password</a>
+
     {% else %}
+
         <a href="{% url "login" %}">Log In</a>
+
     {% endif %}
 
 {% endblock %}
