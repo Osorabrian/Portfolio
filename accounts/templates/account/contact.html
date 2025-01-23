@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block title %}Contact Me{% endblock %}
+
+{% block content %}
+
+    {% if not message %}
+
+        <h1>Message Me</h1>
+        <p>If you would like to reach out, work or hire me please do so below</p> 
+        <form method="post">
+            {{form.as_p}}
+            {% csrf_token %}
+            <input type="submit" id="message" name="message"/>
+        </form>
+
+    {% else %}
+
+        <h1>Message has been sent</h1>
+
+    {% endif %}
+
+{% endblock %}

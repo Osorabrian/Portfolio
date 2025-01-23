@@ -5,7 +5,8 @@ from django.conf.urls.static import static
 
 urlpatterns = [
     path('', include('django.contrib.auth.urls')),
-    path('', views.home, name="home")
+    path('', views.home, name="home"),
+    path('message', views.message, name="message")
 ]
 
 if settings.DEBUG:
