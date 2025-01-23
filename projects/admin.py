@@ -6,4 +6,7 @@ from .models import Project
 class ProjectAdmin(admin.ModelAdmin):
     list_display = ['title', 'description', 'url', 'status']
     list_filter = ['title', 'status']
-    search_fields = ['title']
+    search_fields = ['title', 'description']
+    prepopulated_fields = {'slug':('title',)}
+    date_hierachy = 'published'
+    ordering = ['title']
