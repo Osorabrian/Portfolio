@@ -9,6 +9,7 @@ class Project(models.Model):
         IP = 'IP', 'In Progress'
     
     title = models.CharField(max_length=80)
+    slug = models.CharField(max_length=80)
     description = models.TextField()
     url = models.URLField()
     status = models.CharField(
