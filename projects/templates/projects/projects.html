@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block title %}{% endblock %}
+
+{% block content %}
+    <h1>My Projects</h1>
+    {% for project in projects %}
+        <h2>{{project.title}}</h2>
+        <iframe src="{{project.url}}" title="{{project.title}}" height="400" width="400"></iframe>
+        <p>{{project.description}}</p>
+    {% endfor %}
+
+
+{% endblock %}
