@@ -5,8 +5,9 @@
 {% block content %}
 
     <h1 id="title">My Projects</h1>
-    <form method="post">
-        <input type="search" name="search" id="search-input" placeholder="Search a Project"/>
+    <form method="post" >
+        {{form.as_p}}
+        {% csrf_token %}
         <input type="submit" value="Search" id="search-button"/>
     </form>
 
