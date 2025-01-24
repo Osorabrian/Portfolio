@@ -1,14 +1,25 @@
 {% extends "base.html" %}
 
-{% block title %}{% endblock %}
+{% block title %}My Projects{% endblock %}
 
 {% block content %}
-    <h1>My Projects</h1>
-    {% for project in projects %}
-        <h2>{{project.title}}</h2>
-        <iframe src="{{project.url}}" title="{{project.title}}" height="400" width="400"></iframe>
-        <p>{{project.description}}</p>
-    {% endfor %}
 
+    <h1 id="title">My Projects</h1>
+    <form method="post">
+        <input type="search" name="search" id="search-input" placeholder="Search a Project"/>
+        <input type="submit" value="Search" id="search-button"/>
+    </form>
+
+    {% for project in projects %}
+      <div id="project-card">
+        <h2>{{project.title}}</h2>
+        <iframe src="{{project.url}}" title="{{project.title}}" height="400" width="400" style="border:none"></iframe>
+        <p>{{project.description}}</p>
+        <p>
+            <strong>Status:</strong>  
+            {{project.status}}
+        </p>
+      </div>
+    {% endfor %}
 
 {% endblock %}
