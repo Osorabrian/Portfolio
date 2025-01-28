@@ -1,3 +1,7 @@
 #project-card{
-    background-color: blue;
+    max-width: 500px;
+}
+
+#projects-div{
+    display: inline;
 }
