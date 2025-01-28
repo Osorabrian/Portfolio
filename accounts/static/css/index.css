@@ -1,7 +1,14 @@
 #project-card{
-    max-width: 500px;
+    max-width: 300px;
+    padding: 10px 3px;
+}
+
+body{
+    margin: 10px;
 }
 
 #projects-div{
-    display: inline;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
 }
