@@ -1,6 +1,7 @@
 from django.shortcuts import render
-from .forms import ContactForm
+from .forms import ContactForm, UserRegistrationForm
 from django.core.mail import send_mail
+from django.views.decorators.http import require_POST
 
 # Create your views here.
 def home(request):
@@ -35,3 +36,22 @@ def message(request):
         'account/contact.html',
         {'form':form, 'message':message}
     )
+ 
+def user_registration(request):
+    
+    if request.method == "POST":
+        form = UserRegistrationForm(request.POST)
+        if form.is_valid():
+            cd = form.cleaned_data
+            user = form.save(commit=False)
+            user.set_password(cd['password'])
+            user.save()
+    else:
+        form = UserRegistrationForm()
+            
+    return render(
+        request,
+        'account/user_registration.html',
+        {'form':form}
+    )
+    

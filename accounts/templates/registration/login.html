@@ -5,13 +5,19 @@
 {% block content %}
 
     <h1>Log In</h1>
+
     <p>Please log in to view more information</p>
+    <p>Don't have an account? 
+      <a href="{% url "user_registration" %}">Create Account</a>
+    </p>
+
     <form method="post">
       {{ form.as_p }}
       {% csrf_token %}
       <input type="submit" name="login" id="login" value="Log In"/>
       <input type="hidden" name="next" value={{next}}/>
     </form>
+
     <a href="{% url "password_reset" %}">Forgot Password?</a>
 
 {% endblock %}
