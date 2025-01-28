@@ -3,7 +3,6 @@ from .forms import ContactForm, UserRegistrationForm
 from django.core.mail import send_mail
 from django.views.decorators.http import require_POST
 
-# Create your views here.
 def home(request):
     return render(
         request,
@@ -27,7 +26,6 @@ def message(request):
                 cd['email'],
                 ['osorabrian@gmail.com']
             )
-            
     else:
         form = ContactForm()
     
@@ -46,6 +44,11 @@ def user_registration(request):
             user = form.save(commit=False)
             user.set_password(cd['password'])
             user.save()
+            return render(
+                request,
+                'account/user_registration_done.html',
+                {'user': user}
+            )
     else:
         form = UserRegistrationForm()
             
