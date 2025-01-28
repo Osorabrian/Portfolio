@@ -26,8 +26,6 @@ class Profile(models.Model):
         related_name='profile',
         on_delete=models.CASCADE
     )
-    password = models.CharField(max_length=20)
-    password2 = models.CharField(max_length=20)
     photo = models.ImageField(upload_to='profiles', blank=True)
     created = models.DateTimeField(auto_now_add=True)
     updated = models.DateTimeField(auto_now=True)
