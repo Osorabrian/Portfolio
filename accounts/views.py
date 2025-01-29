@@ -63,7 +63,7 @@ def user_registration(request):
 def profile(request):
     if request.method == "POST":
         user_form = EditUserForm(instance = request.user, data = request.POST)
-        profile_form = EditProfileForm(instance = request.user.profile ,data = request.POST)
+        profile_form = EditProfileForm(instance = request.user.profile ,data = request.POST, files=request.FILES)
         if user_form.is_valid() and profile_form.is_valid():
             user_form.save()
             profile_form.save()

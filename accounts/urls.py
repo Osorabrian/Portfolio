@@ -8,7 +8,7 @@ urlpatterns = [
     path('', views.home, name="home"),
     path('message', views.message, name="message"),
     path('create_account/', views.user_registration, name="user_registration"),
-    path('edit_acount', views.profile, name="profile")
+    path('edit_profile', views.profile, name="profile")
 ]
 
 if settings.DEBUG:

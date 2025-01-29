@@ -18,6 +18,7 @@
           {% csrf_token %}
         </form>
         <a href="{% url "password_change" %}">Change Password</a>
+        <a href="{% url "profile" %}">Edit Profile</a>
 
     {% else %}
 
