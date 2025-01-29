@@ -26,7 +26,7 @@ class Profile(models.Model):
         related_name='profile',
         on_delete=models.CASCADE
     )
-    photo = models.ImageField(upload_to='profiles', blank=True)
+    photo = models.ImageField(upload_to='profiles/%Y/%m/%d/', blank=True)
     created = models.DateTimeField(auto_now_add=True)
     updated = models.DateTimeField(auto_now=True)
     

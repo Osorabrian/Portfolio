@@ -1,7 +1,8 @@
 from django.shortcuts import render
-from .forms import ContactForm, UserRegistrationForm
+from .forms import ContactForm, UserRegistrationForm, EditProfileForm, EditUserForm
 from django.core.mail import send_mail
 from django.views.decorators.http import require_POST
+from .models import Profile
 
 def home(request):
     return render(
@@ -44,6 +45,7 @@ def user_registration(request):
             user = form.save(commit=False)
             user.set_password(cd['password'])
             user.save()
+            Profile.objects.create(user = user)
             return render(
                 request,
                 'account/user_registration_done.html',
@@ -58,3 +60,19 @@ def user_registration(request):
         {'form':form}
     )
     
+def profile(request):
+    if request.method == "POST":
+        user_form = EditUserForm(instance = request.user, data = request.POST)
+        profile_form = EditProfileForm(instance = request.user.profile ,data = request.POST)
+        if user_form.is_valid() and profile_form.is_valid():
+            user_form.save()
+            profile_form.save()
+    else:
+        user_form = EditUserForm(instance = request.user)
+        profile_form = EditProfileForm(instance = request.user.profile)
+        
+    return render(
+        request,
+        'account/edit_profile.html',
+        {'user_form': user_form, 'profile_form': profile_form}
+    )

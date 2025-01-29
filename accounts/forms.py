@@ -1,5 +1,5 @@
 from django import forms
-from .models import Contact
+from .models import Contact, Profile
 from django.contrib.auth import get_user_model
 
 class ContactForm(forms.ModelForm):
@@ -9,7 +9,6 @@ class ContactForm(forms.ModelForm):
  
 User = get_user_model()       
 class UserRegistrationForm(forms.ModelForm):
-    
     password = forms.CharField(widget=forms.PasswordInput)
     password2 = forms.CharField(widget=forms.PasswordInput)
     
@@ -29,3 +28,14 @@ class UserRegistrationForm(forms.ModelForm):
         if email:
             raise forms.ValidationError("Email already exists.")
         return cd['email']
+    
+class EditProfileForm(forms.ModelForm):
+    class Meta:
+        model = Profile
+        fields = ['photo']
+        
+class EditUserForm(forms.ModelForm):
+    class Meta:
+        model = get_user_model()
+        fields = ['first_name', 'last_name', 'email']
+        
