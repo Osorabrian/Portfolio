@@ -16,6 +16,13 @@
     <h1>
         <a href="{% url "home" %}">Brian Osora Isaboke</a>
     </h1>
+    {% if messages %}
+        {% for message in messages %}
+          <ul>
+            <l1>{{message}}</li>
+          </ul>
+        {% endfor %}
+    {% endif %}
     {% block content %}
     {% endblock %}
 
