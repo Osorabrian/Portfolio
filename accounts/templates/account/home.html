@@ -8,11 +8,15 @@
     {% if request.user.is_authenticated %}
         Welcome {{request.user.username}} to my portfolio!
     {% endif %}
-    <p>I am a full stack devloper working with Django and React Developer</p>
-    <img src="{% static 'images/portfolio.png' %}" alt="portfolio" height="400" width="400" style="object-fit:contain" id="profile-pic"/>
-    <a href="{% url "message" %}">Work with me</a>
-    <a href="{% url "projects" %}">My Projects</a>
-    <a href="../../../media/brian osora isaboke CV.docx" download>Downlaod my Resume</a>
+
+    <div>
+      <h2>I am a full stack devloper</h2>
+      <p>Proeficient in Django and React.</p>
+      <img src="{% static 'images/portfolio.png' %}" alt="portfolio" height="400" width="400" style="object-fit:contain" id="profile-pic"/>
+      <a href="{% url "message" %}">Work with me</a>
+      <a href="{% url "projects" %}">My Projects</a>
+      <a href="../../../media/brian osora isaboke CV.docx" download>Downlaod my Resume</a>
+    </div>
 
     {% if request.user.is_authenticated %}
 

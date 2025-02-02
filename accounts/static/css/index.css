@@ -6,6 +6,7 @@
 body{
     margin: 20px;
     background-color: #D3D3D3;
+    color: black;
 }
 
 #profile-pic{
@@ -16,4 +17,9 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content:space-around;
+}
+
+#my-name{
+    text-decoration: none;
+    color: black;
 }
