@@ -63,6 +63,14 @@ nav{
     font-size: 50px;
 }
 
-footer{
-    margin: auto;
+#socials{
+    display: flex;
+    justify-content: center;
+    margin-top: 130px; 
 }
+
+i{
+    font-size: 30px;
+    margin-inline: 50px;
+}
+
