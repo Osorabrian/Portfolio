@@ -11,14 +11,14 @@
 
     <div id="headline">
       <div>
-        <h2>I am a full stack developer</h2>
-        <p>Proeficient in Django and React.</p>
+        <h2 id="title">Full Stack Developer</h2>
+        <p id="description">Proficient in Django and React.</p>
         <a href="../../../media/brian osora isaboke CV.docx" download class="button">Downlaod my Resume</a>
         <a href="{% url "message" %}" class="button">Work with me</a>
         <a href="{% url "projects" %}" class="button">My Projects</a>
       </div>
-      <div>
-        <img src="{% static 'images/portfolio.png' %}" alt="portfolio" height="400" width="400" style="object-fit:contain" id="profile-pic"/>
+      <div id="profile-pic">
+        <img src="{% static 'images/file.png' %}" alt="portfolio" height="400" width="400" style="object-fit:contain"/>
       </div>
     </div>
 

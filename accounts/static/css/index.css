@@ -5,12 +5,15 @@
 
 body{
     margin: 20px;
-    background-color: #D3D3D3;
-    color: black;
+    background-color: black;
+    color: white;
 }
 
 #profile-pic{
-    margin-right: 10px;
+    margin-right: 70px;
+    margin-left: auto;
+    zoom: 130%;
+    margin-top: -60px;
 }
 
 #projects-div{
@@ -21,20 +24,22 @@ body{
 
 #my-name{
     text-decoration: none;
-    color: black;
+    color: white;
     font-size: 20px;
 }
 
 #headline{
     display: flex;
     flex-wrap: wrap-reverse;
+    margin-top: 200px;
+    line-height: 100%;
 }
 
 .button{
-    border: 1px solid black;
+    border: 1px solid white;
     padding: 10px;
     text-decoration: none;
-    color: black;
+    color: white;
     border-radius: 10px;
 }
 
@@ -48,4 +53,12 @@ nav{
     margin-right: 0;
     margin-top: 10px;
     justify-content: space-around;
+}
+
+#title{
+    font-size: 100px;
+}
+
+#description{
+    font-size: 50px;
 }
