@@ -25,7 +25,7 @@ body{
 #my-name{
     text-decoration: none;
     color: white;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 #headline{
@@ -74,3 +74,11 @@ i{
     margin-inline: 50px;
 }
 
+#login-form{
+    border: 1px solid white;
+    margin: auto;
+    margin-top: 150px;
+    max-width: 300px;
+    padding: 60px 60px;
+    border-radius: 15%;
+}
