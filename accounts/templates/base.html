@@ -17,9 +17,7 @@
 <body>
 
     <nav>
-      <h1>
-        <a href="{% url "home" %}"  id="my-name">Brian Osora Isaboke</a>
-      </h1>
+      <strong><a href="{% url "home" %}"  id="my-name">Brian Osora Isaboke</a></strong>
       <div id="nav-buttons">
         {% if request.user.is_authenticated %}
           <form method="post" action={% url "logout" %}>
