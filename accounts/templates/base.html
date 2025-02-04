@@ -12,6 +12,7 @@
     <title>{% block title %}{% endblock %}</title>
     <link href="{% static 'css/index.css' %}" rel="stylesheet" type="text/css" />
     <link rel="icon" type="image/x-icon" href="{% static 'images/favicon.ico' %}" />
+    <script src="https://kit.fontawesome.com/3b3d0030d7.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -42,6 +43,18 @@
     {% block content %}
     {% endblock %}
 
-</body>
+    
+  </body>
+
+  <footer>
+    <div id="socials">
+      <i class="fa-brands fa-square-github" style="color: #ffffff;"></i>
+      <i class="fa-brands fa-x-twitter" style="color: #ffffff;"></i>
+      <i class="fa-regular fa-envelope" style="color: #ffffff;"></i>
+      <i class="fa-solid fa-phone" style="color: #ffffff;"></i>
+    </div>
+
+    <p id="copyright">Copyright (c) Brian Osora Isaboke.</p>
+  </footer>
 
 </html>
