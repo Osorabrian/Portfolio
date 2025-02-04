@@ -16,9 +16,22 @@
 
 <body>
 
-    <h1>
-      <a href="{% url "home" %}"  id="my-name">Brian Osora Isaboke</a>
-    </h1>
+    <nav>
+      <h1>
+        <a href="{% url "home" %}"  id="my-name">Brian Osora Isaboke</a>
+      </h1>
+      <div id="nav-buttons">
+        {% if request.user.is_authenticated %}
+          <form method="post" action={% url "logout" %}>
+            <input type="submit" name="logout" id="logout" value="Log Out" class="button"/>
+            {% csrf_token %}
+          </form>
+        {% else %}
+          <a href="{% url "login" %}" class="button">Log In</a>
+          <a href="{% url "user_registration" %}" class="button">Sign Up</a>
+        {% endif %}
+      </div>
+      </nav>
 
     {% if messages %}
         {% for message in messages %}

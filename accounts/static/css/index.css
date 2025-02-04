@@ -36,3 +36,12 @@ body{
     color: black;
     border-radius: 10px;
 }
+
+nav{
+    display: flex;
+}
+
+#nav-buttons{
+    margin-left: auto;
+    margin-right: 0;
+}

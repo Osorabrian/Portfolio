@@ -24,10 +24,6 @@
 
     {% if request.user.is_authenticated %}
         <h1>Techstack</h1>
-        <form method="post" action={% url "logout" %}>
-          <input type="submit" name="logout" id="logout" value="Log Out"/>
-          {% csrf_token %}
-        </form>
         <a href="{% url "password_change" %}">Change Password</a>
         <a href="{% url "profile" %}">Edit Profile</a>
     {% endif %}
