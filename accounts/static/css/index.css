@@ -10,7 +10,7 @@ body{
 }
 
 #profile-pic{
-    float: right;
+    margin-right: 10px;
 }
 
 #projects-div{
@@ -22,4 +22,9 @@ body{
 #my-name{
     text-decoration: none;
     color: black;
+}
+
+#headline{
+    display: flex;
+    flex-wrap: wrap-reverse;
 }

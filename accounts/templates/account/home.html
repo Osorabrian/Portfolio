@@ -9,17 +9,20 @@
         Welcome {{request.user.username}} to my portfolio!
     {% endif %}
 
-    <div>
-      <h2>I am a full stack devloper</h2>
-      <p>Proeficient in Django and React.</p>
-      <img src="{% static 'images/portfolio.png' %}" alt="portfolio" height="400" width="400" style="object-fit:contain" id="profile-pic"/>
-      <a href="{% url "message" %}">Work with me</a>
-      <a href="{% url "projects" %}">My Projects</a>
-      <a href="../../../media/brian osora isaboke CV.docx" download>Downlaod my Resume</a>
+    <div id="headline">
+      <div>
+        <h2>I am a full stack developer</h2>
+        <p>Proeficient in Django and React.</p>
+        <a href="../../../media/brian osora isaboke CV.docx" download>Downlaod my Resume</a>
+        <a href="{% url "message" %}">Work with me</a>
+        <a href="{% url "projects" %}">My Projects</a>
+      </div>
+      <div>
+        <img src="{% static 'images/portfolio.png' %}" alt="portfolio" height="400" width="400" style="object-fit:contain" id="profile-pic"/>
+      </div>
     </div>
 
     {% if request.user.is_authenticated %}
-
         <h1>Techstack</h1>
         <form method="post" action={% url "logout" %}>
           <input type="submit" name="logout" id="logout" value="Log Out"/>
@@ -27,11 +30,8 @@
         </form>
         <a href="{% url "password_change" %}">Change Password</a>
         <a href="{% url "profile" %}">Edit Profile</a>
-
     {% else %}
-
         <a href="{% url "login" %}">Log In</a>
-
     {% endif %}
 
 {% endblock %}
