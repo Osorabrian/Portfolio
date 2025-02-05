@@ -1,24 +1,36 @@
 {% extends "base.html" %}
+{% load static %}
 
 {% block title %}Brian Osora{% endblock %}
 
 {% block content %}
 
     <form method="post" id="login-form">
-      <h1>Log In</h1>
-      <p>Please log in to view more information</p>
-      <p>Don't have an account? 
-        <a href="{% url "user_registration" %}">Create Account</a>
-      </p>
+
+      <h1>Welcome Back!</h1>
+      <p>Please log in to your account.</p>
+      
       {{ form.as_p }}
       {% csrf_token %}
-      <p style="text-align:right">
+
+      <p>
         <a href="{% url "password_reset" %}">Forgot Password?</a>
       </p>
-      <input type="submit" name="login" id="login" value="Log In"/>
+
+      <input type="submit" name="login" id="login" value="Log In" class="auth-button"/>
       <input type="hidden" name="next" value={{next}}/>
-      <hr>p<hr>
-      <a href="{% url "social:begin" "google-oauth2" %}">Sign in with Google</a>
+
+      <p>or</p>
+
+      <a href="{% url "social:begin" "google-oauth2" %}" id="google-button">
+        Sign in with Google
+        <i class="fa-brands fa-google" id="google-icon"></i>
+      </a>
+
     </form>
+
+    <p>Don't have an account? 
+      <a href="{% url "user_registration" %}">Create Account</a>
+    </p>
 
 {% endblock %}

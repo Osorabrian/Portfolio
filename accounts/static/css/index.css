@@ -74,11 +74,43 @@ i{
     margin-inline: 50px;
 }
 
-#login-form{
+#google-button{
+    text-decoration: none;
+    color: black;
     border: 1px solid white;
+    border-radius: 20px;
+    background-color: white;
+    padding: 20px;
+}
+
+.auth-button{
+    border: 1px solid white;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    background-color: black;
+    width: 100px;
+}
+
+#divider{
+    display: inline;
+}
+
+#google-icon{
+    font-size:medium;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.divider{
+    max-width: 45%;
+}
+
+#hr-divider{
+    display: inline;
+}
+
+#login-form{
     margin: auto;
-    margin-top: 150px;
-    max-width: 300px;
-    padding: 60px 60px;
-    border-radius: 15%;
 }
