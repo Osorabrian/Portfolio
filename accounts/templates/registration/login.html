@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 {% load static %}
 
-{% block title %}Brian Osora{% endblock %}
+{% block title %}Log In{% endblock %}
 
 {% block content %}
 
@@ -17,20 +17,24 @@
         <a href="{% url "password_reset" %}">Forgot Password?</a>
       </p>
 
-      <input type="submit" name="login" id="login" value="Log In" class="auth-button"/>
+      <input type="submit" name="login" value="Log In" class="auth-button"/>
       <input type="hidden" name="next" value={{next}}/>
 
       <p>or</p>
 
-      <a href="{% url "social:begin" "google-oauth2" %}" id="google-button">
-        Sign in with Google
-        <i class="fa-brands fa-google" id="google-icon"></i>
-      </a>
+        <a href="{% url "social:begin" "google-oauth2" %}">
+          <button id="google-button">
+            Sign Up with Google
+            <i class="fa-brands fa-google" id="google-icon"></i>
+          </button>
+        </a>
+
+      <p>Don't have an account? 
+        <a href="{% url "user_registration" %}">Sign Up</a>
+      </p>
 
     </form>
 
-    <p>Don't have an account? 
-      <a href="{% url "user_registration" %}">Create Account</a>
-    </p>
+    
 
 {% endblock %}
