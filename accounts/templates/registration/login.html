@@ -5,6 +5,7 @@
 
 {% block content %}
 
+  <div id="login-div">
     <form method="post" id="login-form">
 
       <h1>Welcome Back!</h1>
@@ -14,27 +15,26 @@
       {% csrf_token %}
 
       <p>
-        <a href="{% url "password_reset" %}">Forgot Password?</a>
+        <a href="{% url "password_reset" %}" class="link">Forgot Password?</a>
       </p>
 
       <input type="submit" name="login" value="Log In" class="auth-button"/>
       <input type="hidden" name="next" value={{next}}/>
 
-      <p>or</p>
-
-        <a href="{% url "social:begin" "google-oauth2" %}">
-          <button id="google-button">
-            Sign Up with Google
-            <i class="fa-brands fa-google" id="google-icon"></i>
-          </button>
-        </a>
-
-      <p>Don't have an account? 
-        <a href="{% url "user_registration" %}">Sign Up</a>
-      </p>
-
     </form>
 
-    
+    <p>or</p>
+
+    <a href="{% url "social:begin" "google-oauth2" %}">
+      <button id="google-button">
+        Sign In with Google
+        <i class="fa-brands fa-google" id="google-icon"></i>
+      </button>
+    </a>
+
+    <p>Don't have an account? 
+      <a href="{% url "user_registration" %}" class="link">Sign Up</a>
+    </p>
+  </div>
 
 {% endblock %}

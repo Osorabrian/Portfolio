@@ -10,7 +10,16 @@
 <form method="POST">
     {{form.as_p}}
     {% csrf_token %}
-    <input type="submit" value="Create Account" id="create-account" />
+    <input type="submit" value="Create Account" id="create-account" class="auth-button"/>
 </form>
+
+<p>or</p>
+
+<a href="{% url "social:begin" "google-oauth2" %}">
+    <button id="google-button">
+      Sign Up with Google
+      <i class="fa-brands fa-google" id="google-icon"></i>
+    </button>
+  </a>
 
 {% endblock %}

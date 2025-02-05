@@ -73,7 +73,6 @@ nav{
 i{
     font-size: 30px;
     margin-inline: 50px;
-    color: initial;
 }
 
 #google-button{
@@ -115,13 +114,7 @@ i{
     display: inline;
 }
 
-#login-form{
-    text-align: center;
-    margin-top: 130px;
-    margin-bottom: 200px;
-}
-
-a{
+.link{
     color: #666A6D;
     text-decoration: none;
 }
