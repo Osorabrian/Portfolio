@@ -9,12 +9,18 @@ class ContactForm(forms.ModelForm):
  
 User = get_user_model()       
 class UserRegistrationForm(forms.ModelForm):
-    password = forms.CharField(widget=forms.PasswordInput)
-    password2 = forms.CharField(widget=forms.PasswordInput)
+    password = forms.CharField(widget=forms.PasswordInput(attrs={"placeholder":"Password","class":"form-control"}))
+    password2 = forms.CharField(widget=forms.PasswordInput(attrs={"placeholder":"Repeat Password","class":"form-control"}))
     
     class Meta:
         model = get_user_model()
         fields = ['first_name', 'last_name', 'username', 'email']
+        widgets = {
+            'first_name': forms.TextInput(attrs={'class':'form-control border-secondary', 'placeholder': 'First Name', }),
+            'last_name': forms.TextInput(attrs={'class':'form-control', 'placeholder':'Last Name'}),
+            'username': forms.TextInput(attrs={'class':"form-control", 'placeholder':'username'}),
+            'email': forms.TextInput(attrs={"class":'form-control', 'placeholder': 'Email'})
+        }
         
     def clean_password2(self):
         cd = self.cleaned_data
