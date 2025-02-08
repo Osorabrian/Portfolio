@@ -118,3 +118,13 @@ i{
     max-width: 500px;
     margin: auto;
 }
+
+#search-btn{
+    font-size: larger;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#search-input{
+    width: 200px;
+}

@@ -6,12 +6,12 @@
 {% block content %}
 
     <link href="{% static 'css/projects.css' %}" />
-    <h1 id="title">My Projects</h1>
+    <h1 class="text-center">My Projects</h1>
 
-    <form method="post" novalidate style="text-align: center">
+    <form method="post" novalidate class="d-flex m-5 justify-content-end">
         {{form.as_p}}
         {% csrf_token %}
-        <input type="submit" value="Search" id="search-button"/>
+        <i class="fa-solid fa-magnifying-glass" style="color: #ffffff;" type="submit" id="search-btn"></i>
     </form>
 
     <div id="projects-div">
