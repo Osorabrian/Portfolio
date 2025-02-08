@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% load static %}
 
 {% block title %}Create Account{% endblock %}
 
@@ -21,12 +22,12 @@
     <p class="text-center">or</p>
     
     <div class="text-center mt-4">
-      <a href="{% url "social:begin" "google-oauth2" %}" class="google-button">
-          <span class="d-inline">
-            Sign Up with Google
-            <i class="fa-brands fa-google" id="google-icon"></i>
-          </span>
+      <a href="{% url "social:begin" "google-oauth2" %}" class="google-button d-inline">
+        Sign Up with Google
+        <img src="{% static "images/google.png" %}" alt="google-logo" id="google-icon"/>
       </a>
+  </div>
+
   </div>
 
     <p class="mt-5 text-center">

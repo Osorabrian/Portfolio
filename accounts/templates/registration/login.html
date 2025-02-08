@@ -5,34 +5,28 @@
 
 {% block content %}
 
-  <div id="login-div">
-    <form method="post" id="login-form">
+  <div id="login-div" class="text-center">
 
-      <h1 style="text-align:center">Welcome Back!</h1>
+    <form method="post" id="login-form">
+      <h1>Welcome Back!</h1>
       <p>Please log in to your account.</p>
-      
       {{ form.as_p }}
       {% csrf_token %}
-
       <p>
         <a href="{% url "password_reset" %}" class="link">Forgot Password?</a>
       </p>
-
       <input type="submit" name="login" value="Log In" class="auth-button"/>
       <input type="hidden" name="next" value={{next}}/>
-
     </form>
 
     <p>or</p>
 
-    <a href="{% url "social:begin" "google-oauth2" %}">
-      <button id="google-button">
-        Sign In with Google
-        <i class="fa-brands fa-google" id="google-icon"></i>
-      </button>
-    </a>
+      <a href="{% url "social:begin" "google-oauth2" %}" class="google-button d-inline text-center mt-4">
+            Sign Up with Google
+            <img src="{% static "images/google.png" %}" alt="google-logo" id="google-icon"/>
+      </a>
 
-    <p>Don't have an account? 
+    <p class="text-center mt-5">Don't have an account? 
       <a href="{% url "user_registration" %}" class="link">Sign Up</a>
     </p>
   </div>
