@@ -108,3 +108,8 @@ i{
     color: #666A6D;
     text-decoration: none;
 }
+
+#login-div{
+    max-width: 300px;
+    margin: auto;
+}
