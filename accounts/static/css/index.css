@@ -84,6 +84,7 @@ i{
     padding: 15px;
     max-width: 200px;
     margin: auto;
+    float: center;
 }
 
 .auth-button{
@@ -117,4 +118,8 @@ i{
 .link{
     color: #666A6D;
     text-decoration: none;
+}
+
+.form-control{
+    background-color: gray;
 }
