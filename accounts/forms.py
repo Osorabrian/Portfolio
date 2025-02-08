@@ -24,7 +24,7 @@ class UserRegistrationForm(forms.ModelForm):
             'first_name': forms.TextInput(attrs={'class':'form-control border-secondary', 'placeholder': 'First Name', }),
             'last_name': forms.TextInput(attrs={'class':'form-control', 'placeholder':'Last Name'}),
             'username': forms.TextInput(attrs={'class':"form-control", 'placeholder':'username'}),
-            'email': forms.TextInput(attrs={"class":'form-control', 'placeholder': 'Email'})
+            'email': forms.EmailInput(attrs={"class":'form-control', 'placeholder': 'Email'})
         }
         
     def clean_password2(self):

@@ -6,13 +6,17 @@
 
     {% if not message %}
 
-        <h1>Message Me</h1>
-        <p>If you would like to reach out, work or hire me please do so below</p> 
+      <div id="contact-form" class="mt-5">
+        <h1 class="text-center">Message Me</h1>
+        <p class="text-center">If you would like to reach out, work or hire me please do so below</p> 
         <form method="post">
             {{form.as_p}}
             {% csrf_token %}
-            <input type="submit" id="message" name="message"/>
+            <div class="text-center mt-5">
+              <input type="submit" id="message" name="message" class="auth-button"/>
+            </div>
         </form>
+      </div>
 
     {% else %}
 
