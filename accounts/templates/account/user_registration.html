@@ -21,15 +21,15 @@
     <p class="text-center">or</p>
     
     <div class="text-center mt-4">
-      <a href="{% url "social:begin" "google-oauth2" %}">
-          <span id="google-button" class="d-inline link">
+      <a href="{% url "social:begin" "google-oauth2" %}" class="google-button">
+          <span class="d-inline">
             Sign Up with Google
             <i class="fa-brands fa-google" id="google-icon"></i>
           </span>
       </a>
   </div>
 
-    <p class="mt-5">
+    <p class="mt-5 text-center">
       Already have an account? 
       <a href="{% url "login" %}" class="link">Sign In</a>
     </p>

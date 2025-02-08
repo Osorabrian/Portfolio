@@ -75,12 +75,11 @@ i{
     margin-inline: 50px;
 }
 
-#google-button{
+.google-button{
     text-decoration: none;
-    color: black;
-    border: 1px solid white;
+    color: white;
     border-radius: 20px;
-    background-color: white;
+    background-color: #4285F4	;
     padding: 15px;
     max-width: 280px;
     margin: auto;
@@ -97,29 +96,13 @@ i{
     min-width: 200px;
 }
 
-#divider{
-    display: inline;
-}
-
 #google-icon{
     font-size:medium;
     margin-left: 10px;
     margin-right: 10px;
 }
 
-.divider{
-    max-width: 45%;
-}
-
-#hr-divider{
-    display: inline;
-}
-
 .link{
     color: #666A6D;
     text-decoration: none;
-}
-
-.form-control{
-    background-color: gray;
 }
