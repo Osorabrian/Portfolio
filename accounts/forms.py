@@ -10,7 +10,7 @@ class ContactForm(forms.ModelForm):
 User = get_user_model()       
 class UserRegistrationForm(forms.ModelForm):
     password = forms.CharField(widget=forms.PasswordInput(attrs={"placeholder":"Password","class":"form-control"}))
-    password2 = forms.CharField(widget=forms.PasswordInput(attrs={"placeholder":"Repeat Password","class":"form-control"}))
+    password2 = forms.CharField(label="Repeat Password", widget=forms.PasswordInput(attrs={"placeholder":"Repeat Password","class":"form-control"}))
     
     class Meta:
         model = get_user_model()
