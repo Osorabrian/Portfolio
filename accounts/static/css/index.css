@@ -136,3 +136,13 @@ i{
     margin: auto; 
     text-align: center;
 }
+
+#logos-div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo{
+    margin: 10px;
+}

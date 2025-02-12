@@ -11,9 +11,9 @@ def education_view(request):
     )
     
 def experience_view(request):
-    experience = Experience.objects.all()
+    experiences = Experience.objects.all()
     return render(
         request,
         'about/about.html',
-        {'experience':experience}
+        {'experiences':experiences}
     )
