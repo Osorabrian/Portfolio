@@ -4,16 +4,36 @@ from django.db import models
 class Education(models.Model):
     school=models.CharField(max_length=250)
     course=models.CharField(max_length=250)
-    start_year=models.DateField()
-    end_year=models.DateField()
-    description=models.CharField(max_length=250)
+    start_date=models.DateField()
+    end_date=models.DateField()
+    description=models.TextField(max_length=250)
+    created = models.DateTimeField(auto_now_add=True)
+    updated = models.DateTimeField(auto_now=True)
     
     def __str__(self):
-        return f"{self.school} added."
+        return f"{slef.course} taken at {self.school} added."
     
     class Meta:
-        ordering = ['-school']
+        ordering = ['-start_date']
         indexes = [
-            models.Index(fields=['-school']),
+            models.Index(fields=['-start_date']),
         ]
 
+class Experience(models.Model):
+    position=models.CharField(max_length=250)
+    company=models.CharField(max_length=250)
+    start_date = models.DateField()
+    end_date = models.DateField()
+    achievement = models.TextField()
+    description = models.TextField()
+    
+    def __str__(self):
+        return f"{self.position} position at {self.company} added to experience."
+    
+    class Meta:
+        ordering = ['-start_date']
+        indexes = [
+            models.Index(fields=['-start_date'])
+        ]
+        
+    
