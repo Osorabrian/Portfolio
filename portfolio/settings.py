@@ -35,6 +35,7 @@ INSTALLED_APPS = [
     'social_django',
     'accounts.apps.AccountsConfig',
     'projects.apps.ProjectsConfig',
+    'about.apps.AboutConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -162,3 +163,4 @@ SOCIAL_AUTH_PIPELINE = [
     'social_core.pipeline.social_auth.load_extra_data',
     'social_core.pipeline.user.user_details',
 ]
+
