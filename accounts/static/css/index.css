@@ -130,3 +130,9 @@ i{
 #search-input{
     width: 200px;
 }
+
+#about-me-div{
+    max-width: 70%;
+    margin: auto; 
+    text-align: center;
+}

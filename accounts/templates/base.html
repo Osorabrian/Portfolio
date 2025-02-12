@@ -27,6 +27,7 @@
             {% csrf_token %}
           </form>
         {% else %}
+          <a href="{% url "about:education" %}">About</a>
           <a href="{% url "login" %}" class="button">Log In</a>
           <a href="{% url "user_registration" %}" class="button">Sign Up</a>
         {% endif %}
