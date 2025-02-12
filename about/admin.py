@@ -10,3 +10,10 @@ class EducationAdmin(admin.ModelAdmin):
     search_fields = ['school','course']
     show_facets = admin.ShowFacets.ALWAYS
     
+@admin.register(Experience)
+class ExperienceAdmin(admin.ModelAdmin):
+    list_display = ['company','position','start_date','end_date']
+    list_filter = ['company']
+    date_hierachy = ['start_date']
+    search_fields = ['school','position','achievement']
+    show_facets = admin.ShowFacets.ALWAYS    
