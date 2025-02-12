@@ -8,5 +8,5 @@ class EducationAdmin(admin.ModelAdmin):
     list_filter = ['school']
     date_hierachy = 'start_date'
     search_fields = ['school','course']
-    facets = show.Facets.ALWAYS
+    show_facets = admin.ShowFacets.ALWAYS
     
