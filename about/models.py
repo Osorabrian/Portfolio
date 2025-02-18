@@ -1,6 +1,5 @@
 from django.db import models
 
-# Create your models here.
 class Education(models.Model):
     school=models.CharField(max_length=250)
     course=models.CharField(max_length=250)
@@ -11,7 +10,7 @@ class Education(models.Model):
     updated = models.DateTimeField(auto_now=True)
     
     def __str__(self):
-        return f"{slef.course} taken at {self.school} added."
+        return f"{self.course} taken at {self.school} added."
     
     class Meta:
         ordering = ['-start_date']

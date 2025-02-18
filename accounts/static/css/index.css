@@ -146,3 +146,7 @@ i{
 .logo{
     margin: 10px;
 }
+
+#signup-form{
+    max-width: 450px;
+}

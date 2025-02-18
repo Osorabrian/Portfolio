@@ -4,7 +4,8 @@
 {% block title %}Brian Osora{% endblock %}
 
 {% block content %}
-
+  
+  <div id="home">
     {% if request.user.is_authenticated %}
         Welcome {{request.user.username}} to my portfolio!
     {% endif %}
@@ -29,6 +30,7 @@
         <a href="{% url "password_change" %}">Change Password</a>
         <a href="{% url "profile" %}">Edit Profile</a>
     {% endif %}
+  </div>
 
 {% endblock %}
 
