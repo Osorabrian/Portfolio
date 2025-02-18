@@ -13,7 +13,7 @@
       <form method="POST" >
           {{form.as_p}}
           {% csrf_token %}
-          <div class="text-center m-3">
+          <div class="text-center m-4">
             <input type="submit" value="Create An Account" id="create-account" class="auth-button" style="text-align:center"/>
           </div>
       </form>
@@ -26,14 +26,14 @@
         Sign Up with Google
         <img src="{% static "images/google.png" %}" alt="google-logo" id="google-icon"/>
       </a>
-  </div>
-
-  </div>
+    </div>
 
     <p class="mt-5 text-center">
       Already have an account? 
       <a href="{% url "login" %}" class="link">Sign In</a>
     </p>
+  
+  </div>
 
   </div>
 
