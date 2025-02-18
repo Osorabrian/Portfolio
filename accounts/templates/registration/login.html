@@ -5,7 +5,7 @@
 
 {% block content %}
 
-  <div id="login-div">
+  <div id="login-div" class="mx-auto">
     <form method="post" id="login-form">
       <h1 class="text-center mb-3">Welcome Back!</h1>
       <p class="text-center mb-5">Please log in to your account.</p>
@@ -29,7 +29,7 @@
       <p class="text-center mt-5">Don't have an account? 
         <a href="{% url "user_registration" %}" class="link">Sign Up</a>
       </p>
-  </div>
+    </div>
   </div>
 
 {% endblock %}
