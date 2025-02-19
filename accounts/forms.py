@@ -14,17 +14,17 @@ class ContactForm(forms.ModelForm):
  
 User = get_user_model()       
 class UserRegistrationForm(forms.ModelForm):
-    password = forms.CharField(widget=forms.PasswordInput(attrs={"placeholder":"Password","class":"form-control"}))
-    password2 = forms.CharField(label="Repeat Password", widget=forms.PasswordInput(attrs={"placeholder":"Repeat Password","class":"form-control"}))
+    password = forms.CharField(widget=forms.PasswordInput(attrs={"placeholder":"Password","class":"form-control rounded-0"}))
+    password2 = forms.CharField(label="Repeat Password", widget=forms.PasswordInput(attrs={"placeholder":"Repeat Password","class":"form-control rounded-0"}))
     
     class Meta:
         model = get_user_model()
         fields = ['first_name', 'last_name', 'username', 'email']
         widgets = {
-            'first_name': forms.TextInput(attrs={'class':'form-control border-secondary', 'placeholder': 'First Name', }),
-            'last_name': forms.TextInput(attrs={'class':'form-control', 'placeholder':'Last Name'}),
-            'username': forms.TextInput(attrs={'class':"form-control", 'placeholder':'username'}),
-            'email': forms.EmailInput(attrs={"class":'form-control', 'placeholder': 'Email'})
+            'first_name': forms.TextInput(attrs={'class':'form-control rounded-0', 'placeholder': 'First Name', }),
+            'last_name': forms.TextInput(attrs={'class':'form-control rounded-0', 'placeholder':'Last Name'}),
+            'username': forms.TextInput(attrs={'class':"form-control rounded-0", 'placeholder':'username'}),
+            'email': forms.EmailInput(attrs={"class":'form-control rounded-0', 'placeholder': 'Email'})
         }
         
     def clean_password2(self):

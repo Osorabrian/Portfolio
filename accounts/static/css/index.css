@@ -120,8 +120,12 @@ i{
 }
 
 #contact-form{
-    max-width: 500px;
-    margin: auto;
+    max-width: 700px;
+    margin-top: 140px;
+    background-color: rgba(255, 255, 255, 0.10);
+    padding: 40px 40px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.44);
 }
 
 #search-btn{
@@ -151,10 +155,14 @@ i{
 }
 
 #signup-form{
-    max-width: 550px;
+    max-width: 600px;
     margin-top: 40px;
     background-color: rgba(255, 255, 255, 0.10);
     padding: 40px 40px;
     box-sizing: border-box;
     border: 1px solid rgba(255, 255, 255, 0.44);
+}
+
+.form-control{
+    border-radius: 0%;
 }
