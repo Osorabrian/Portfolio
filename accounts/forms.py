@@ -1,7 +1,10 @@
 from django import forms
 from .models import Contact, Profile
 from django.contrib.auth import get_user_model
-from django.contrib.auth.forms import AuthenticationForm
+from django.contrib.auth.forms import AuthenticationForm, PasswordResetForm
+
+class CustomPasswordResetForm(PasswordResetForm):
+    email = forms.CharField(widget=forms.EmailInput(attrs={'placeholder':'example@gmail.com','class':'form-control rounded-0'}))
 
 class CustomLoginForm(AuthenticationForm):
     username = forms.CharField(widget=forms.TextInput(attrs={'placeholder':'Username','class':'form-control rounded-0'}))

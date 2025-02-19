@@ -5,6 +5,7 @@ from django.conf.urls.static import static
 
 urlpatterns = [
     path('login/', views.CustomLoginView.as_view(), name="login"),
+    path('password_reset/', views.CustomPasswordResetFormView.as_view(), name="password_reset"),
     path('', include('django.contrib.auth.urls')),
     path('', views.home, name="home"),
     path('message', views.message, name="message"),

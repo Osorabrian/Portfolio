@@ -1,14 +1,18 @@
 from django.shortcuts import render
-from .forms import ContactForm, UserRegistrationForm, EditProfileForm, EditUserForm, CustomLoginForm
+from .forms import ContactForm, UserRegistrationForm, EditProfileForm, EditUserForm, CustomLoginForm, CustomPasswordResetForm
 from django.core.mail import send_mail
 from django.views.decorators.http import require_POST
 from .models import Profile
 from django.contrib import messages
-from django.contrib.auth.views import LoginView
+from django.contrib.auth.views import LoginView,PasswordResetView
 
 class CustomLoginView(LoginView):
     template_name = 'registration/login.html'
     authentication_form = CustomLoginForm
+    
+class CustomPasswordResetFormView(PasswordResetView):
+    template_name = 'registration/password_reset_form.html'
+    form_class = CustomPasswordResetForm
 
 def home(request):
     return render(
