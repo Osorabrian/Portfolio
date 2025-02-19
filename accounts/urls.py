@@ -4,6 +4,7 @@ from django.conf import settings
 from django.conf.urls.static import static
 
 urlpatterns = [
+    path('login/', views.CustomLoginView.as_view(), name="login"),
     path('', include('django.contrib.auth.urls')),
     path('', views.home, name="home"),
     path('message', views.message, name="message"),

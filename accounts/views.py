@@ -1,9 +1,14 @@
 from django.shortcuts import render
-from .forms import ContactForm, UserRegistrationForm, EditProfileForm, EditUserForm
+from .forms import ContactForm, UserRegistrationForm, EditProfileForm, EditUserForm, CustomLoginForm
 from django.core.mail import send_mail
 from django.views.decorators.http import require_POST
 from .models import Profile
 from django.contrib import messages
+from django.contrib.auth.views import LoginView
+
+class CustomLoginView(LoginView):
+    template_name = 'registration/login.html'
+    authentication_form = CustomLoginForm
 
 def home(request):
     return render(

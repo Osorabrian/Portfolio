@@ -1,6 +1,11 @@
 from django import forms
 from .models import Contact, Profile
 from django.contrib.auth import get_user_model
+from django.contrib.auth.forms import AuthenticationForm
+
+class CustomLoginForm(AuthenticationForm):
+    username = forms.CharField(widget=forms.TextInput(attrs={'placeholder':'Username','class':'form-control rounded-0'}))
+    password = forms.CharField(widget=forms.PasswordInput(attrs={'placeholder':'Password', 'class':'form-control rounded-0'}))
 
 class ContactForm(forms.ModelForm):
     class Meta:
