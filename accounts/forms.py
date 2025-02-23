@@ -1,7 +1,12 @@
 from django import forms
 from .models import Contact, Profile
 from django.contrib.auth import get_user_model
-from django.contrib.auth.forms import AuthenticationForm, PasswordResetForm, SetPasswordForm
+from django.contrib.auth.forms import AuthenticationForm, PasswordResetForm, SetPasswordForm, PasswordChangeForm
+
+class CustomPasswordChangeForm(PasswordChangeForm):
+    old_password = forms.CharField(widget=forms.PasswordInput(attrs={'placeholder':'Old password','class':'form-control rounded-0'}), label="Old password")
+    new_password1 = forms.CharField(widget=forms.PasswordInput(attrs={'placeholder':'New Password','class':'form-control rounded-0'}), label="New password")
+    new_password2 = forms.CharField(widget=forms.PasswordInput(attrs={'placeholder':'Repeat New Password','class':'form-control rounded-0'}), label="New password confirmation")
 
 class CustomPasswordResetForm(PasswordResetForm):
     email = forms.CharField(widget=forms.EmailInput(attrs={'placeholder':'example@gmail.com','class':'form-control rounded-0'}))
@@ -19,7 +24,7 @@ class ContactForm(forms.ModelForm):
         model = Contact
         fields = ['name', 'email', 'message']
         widgets = {
-            'name': forms.TextInput(attrs={'class':'form-control', 'placeholder':'Enter Name'}),
+            'name': forms.TextInput(attrs={'class':'form-control ', 'placeholder':'Enter Name'}),
             'email': forms.EmailInput(attrs={'class':'form-control', 'placeholder': 'example@gmail.com'}),
             'message': forms.Textarea(attrs={'class': 'form-control', 'placeholder':'Enter Message'})
         }
