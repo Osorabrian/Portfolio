@@ -26,7 +26,6 @@
     </div>
 
     {% if request.user.is_authenticated %}
-        <h1>Techstack</h1>
         <a href="{% url "password_change" %}">Change Password</a>
         <a href="{% url "profile" %}">Edit Profile</a>
     {% endif %}
