@@ -4,11 +4,18 @@
 
 {% block content %}
 
-<form method="post" enctype="multipart/form-data">
-    {{user_form.as_p}}
-    {{profile_form.as_p}}
-    {% csrf_token %}
-    <input type="submit" value="Edit Profile" name="edit profile" id="edit-profile" />
-</form>
+<div id="edit-profile-form" class="mx-auto">
+    <h1>Edit Profile</h1>
+    <hr>
+    <p>Please fill the form to update the profile.</p>
+    <form method="post" enctype="multipart/form-data">
+        {{user_form.as_p}}
+        {{profile_form.as_p}}
+        {% csrf_token %}
+        <div class="text-center mt-5">
+            <input type="submit" value="Edit Profile" name="edit profile" class="auth-button" />
+        </div>
+    </form>
+</div>
 
 {% endblock %}

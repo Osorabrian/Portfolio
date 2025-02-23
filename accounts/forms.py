@@ -61,9 +61,17 @@ class EditProfileForm(forms.ModelForm):
     class Meta:
         model = Profile
         fields = ['photo']
+        widgets = {
+            'photo': forms.FileInput(attrs={'class':'form-control rounded-0'})
+        }
         
 class EditUserForm(forms.ModelForm):
     class Meta:
         model = get_user_model()
         fields = ['first_name', 'last_name', 'email']
+        widgets = {
+            'first_name': forms.TextInput(attrs={'class':'form-control rounded-0'}),
+            'last_name': forms.TextInput(attrs={'class':'form-control rounded-0'}),
+            'email': forms.EmailInput(attrs={'class':'form-control rounded-0'})
+        }
         
