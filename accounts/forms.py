@@ -24,9 +24,9 @@ class ContactForm(forms.ModelForm):
         model = Contact
         fields = ['name', 'email', 'message']
         widgets = {
-            'name': forms.TextInput(attrs={'class':'form-control ', 'placeholder':'Enter Name'}),
-            'email': forms.EmailInput(attrs={'class':'form-control', 'placeholder': 'example@gmail.com'}),
-            'message': forms.Textarea(attrs={'class': 'form-control', 'placeholder':'Enter Message'})
+            'name': forms.TextInput(attrs={'class':'form-control rounded-0', 'placeholder':'Enter Name'}),
+            'email': forms.EmailInput(attrs={'class':'form-control rounded-0', 'placeholder': 'example@gmail.com'}),
+            'message': forms.Textarea(attrs={'class': 'form-control rounded-0', 'placeholder':'Enter Message'})
         }
  
 User = get_user_model()       
