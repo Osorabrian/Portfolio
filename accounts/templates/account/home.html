@@ -17,10 +17,13 @@
         <div class="mt-5">
           <a href="../../../media/Brian Isaboke - Student - Resume.pdf" download class="text-decoration-none text-white">
             Downlaod my Resume
-            <i class="fa-solid fa-download ms-1" style="color: #ffffff;"></i>
+            <i class="fa-solid fa-download ms-1 fs-5" style="color: #ffffff;"></i>
           </a>
-          <a href="{% url "message" %}" class="button">Work with me</a>
-          <a href="{% url "projects" %}" class="button">My Projects</a>
+          <a href="{% url "message" %}" class="text-decoration-none text-white">
+            Work with me
+            <i class="fa-solid fa-arrow-up-right-from-square ms-1 fs-5" style="color: #ffffff;"></i>
+          </a>
+          {% comment %} <a href="{% url "projects" %}" class="button">My Projects</a> {% endcomment %}
         </div>
       </div>
       <div id="profile-pic">
