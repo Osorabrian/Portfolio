@@ -19,17 +19,34 @@
 <body class="bg-black text-white mt-3">
 
     <nav>
-      <strong><a href="{% url "home" %}"  id="my-name">Brian Osora Isaboke</a></strong>
+      <strong><a href="{% url "home" %}"  id="my-name" class="align-middle">Brian Osora Isaboke</a></strong>
       <div id="nav-buttons">
         {% if request.user.is_authenticated %}
-          <form method="post" action={% url "logout" %}>
-            <input type="submit" name="logout" id="logout" value="Log Out" class="button"/>
-            {% csrf_token %}
-          </form>
-        {% else %}
-          <a href="{% url "about:education" %}">About</a>
-          <a href="{% url "login" %}" class="button">Log In</a>
-          <a href="{% url "user_registration" %}" class="button">Sign Up</a>
+            <div class="dropdown">
+              <a class="dropdown text-white d-flex text-decoration-none" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                {% if request.user.profile.photo %}
+                  <img src={{request.user.profile.photo.url}} alt="{{request.user.profile.user}}" height="40" width="40" style="border-radius:50%"/>
+                {% else %}
+                  <img src="{% static "images/avatar.png"%}" alt="avatar" height="50" width="50" style="border-radius:50%"/>
+                {% endif %}
+                <p class="ms-3">{{request.user.username}}</p>
+                <i class="fa-solid fa-chevron-down mt-1" style="color: #ffffff;font-size:15px;margin-left:8px;margin-right:10px"></i>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href="{% url "profile" %}" class="dropdown-item">Edit Profile</a></li>
+                <li><a href="{% url "password_change"%}" class="dropdown-item">Password Change</a></li>
+                <li>
+                  <form method="post" action={% url "logout" %}>
+                    <input type="submit" name="logout" id="logout" value="Log Out" class="button"/>
+                    {% csrf_token %}
+                  </form>
+                </li>
+              </ul>
+            </div>
+          {% else %}
+            <a href="{% url "about:education" %}">About</a>
+            <a href="{% url "login" %}" class="button">Log In</a>
+            <a href="{% url "user_registration" %}" class="button">Sign Up</a>
         {% endif %}
       </div>
     </nav>
