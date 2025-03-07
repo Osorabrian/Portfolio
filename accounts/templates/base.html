@@ -22,6 +22,8 @@
       <strong><a href="{% url "home" %}"  id="my-name" class="align-middle">Brian Osora Isaboke</a></strong>
       <div id="nav-buttons">
         {% if request.user.is_authenticated %}
+            <a href="{% url "about:education" %}">About</a>
+            <a href="{% url "projects" %}">My Projects</a>
             <div class="dropdown">
               <a class="dropdown text-white d-flex text-decoration-none" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 {% if request.user.profile.photo %}
@@ -46,7 +48,6 @@
               </ul>
             </div>
           {% else %}
-            <a href="{% url "about:education" %}">About</a>
             <a href="{% url "login" %}" class="button">Log In</a>
             <a href="{% url "user_registration" %}" class="button">Sign Up</a>
         {% endif %}
