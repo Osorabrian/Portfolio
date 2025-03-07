@@ -15,7 +15,7 @@
         <h2 id="title">Full Stack Developer.</h2>
         <p id="description">Proficient in Django and React.</p>
         <div class="mt-5">
-          <a href="../../../media/Brian Isaboke - Student - Resume.pdf" download class="text-decoration-none text-white">
+          <a href="../../../media/Brian Isaboke - Student - Resume.pdf" download class="text-decoration-none text-white icon-link">
             Downlaod my Resume
             <i class="fa-solid fa-download ms-1 fs-5" style="color: #ffffff;"></i>
           </a>
@@ -30,11 +30,6 @@
         <img src="{% static 'images/file.png' %}" alt="portfolio" height="400" width="400" style="object-fit:contain"/>
       </div>
     </div>
-
-    {% if request.user.is_authenticated %}
-        <a href="{% url "password_change" %}">Change Password</a>
-        <a href="{% url "profile" %}">Edit Profile</a>
-    {% endif %}
   </div>
 
 {% endblock %}
