@@ -4,6 +4,7 @@ from django.core.mail import send_mail
 from django.views.decorators.http import require_POST
 from .models import Profile
 from django.contrib import messages
+from django.contrib.auth.decorators import login_required
 from django.contrib.auth.views import LoginView,PasswordResetView, PasswordResetConfirmView, PasswordChangeView
 
 class CustomLoginView(LoginView):
@@ -21,7 +22,8 @@ class CustomPasswordResetConfirmView(PasswordResetConfirmView):
 class CustomPasswordChangeView(PasswordChangeView):
     template_name='registration/password_change_form.html'
     form_class = CustomPasswordChangeForm
-
+    
+@login_required
 def home(request):
     return render(
         request,
@@ -81,7 +83,8 @@ def user_registration(request):
         'account/user_registration.html',
         {'form':form}
     )
-    
+  
+@login_required  
 def profile(request):
     if request.method == "POST":
         user_form = EditUserForm(instance = request.user, data = request.POST)
