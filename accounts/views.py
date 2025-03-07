@@ -23,7 +23,6 @@ class CustomPasswordChangeView(PasswordChangeView):
     template_name='registration/password_change_form.html'
     form_class = CustomPasswordChangeForm
     
-@login_required
 def home(request):
     return render(
         request,
