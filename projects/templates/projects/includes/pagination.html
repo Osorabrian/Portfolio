@@ -1,11 +1,15 @@
 <span class="mt-4">
     {% if page.has_previous %}
-        <a href="?page={{page.previous_page_number}}">Previous</a>
+        <a href="?page={{page.previous_page_number}}" class="my-auto border-1">
+            <i class="fa-solid fa-chevron-left my-auto"></i>
+        </a>
     {% endif %}
     <span>
         Page {{page.number}} of {{page.paginator.num_pages}}
     </span>
     {% if page.has_next %}
-        <a href="?page={{page.next_page_number}}">Next</a>
+        <a href="?page={{page.next_page_number}}">
+            <i class="fa-solid fa-chevron-right"></i>
+        </a>
     {% endif %}        
 </span>
