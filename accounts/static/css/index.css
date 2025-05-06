@@ -186,3 +186,8 @@ i{
 .dropdown-list:hover{
     background-color: black;
 }
+
+#pagination-btn{
+    border: 1px white solid;
+    border-radius: 50%;
+}
