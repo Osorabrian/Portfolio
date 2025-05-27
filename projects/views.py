@@ -19,7 +19,7 @@ def projects_list(request):
     else:
         projects = Project.objects.all().order_by('published')
         
-    paginator = Paginator(projects, 5)
+    paginator = Paginator(projects, 4)
     page_number = request.GET.get('page', 1)
     projects = paginator.page(page_number)
         

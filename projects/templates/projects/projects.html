@@ -14,19 +14,35 @@
         <i class="fa-solid fa-magnifying-glass" style="color: #ffffff;" type="submit" id="search-btn"></i>
     </form>
 
-    <div id="projects-div">
+    <div id="projects-div"> 
       {% for project in projects %}
-        <div id="project-card">
-          <h2 style="text-align:center">{{project.title}}</h2>
-          <div style="text-align:center">
-            <iframe src="{{project.url}}" title="{{project.title}}" height="350" width="350" style="border:none"></iframe>
+
+        <div id="project-card" class="mb-3 me-4" style="position: relative">
+          <iframe src="{{project.url}}" title="{{project.title}}" height="400" style="border:none; width: 100%"></iframe>
+          <div class="px-2">
+            <h2 class="my-2">{{project.title}}</h2>
+            <p>{{project.description}}</p>
+            <div style="position: absolute; bottom: 0px">
+              <a href="{{project.url}}" style="color: white; text-decoration: none">
+                Visit site
+                <i class="fa-solid fa-arrow-up-right-from-square ms-1" style="color: #ffffff; font-size: 20px"></i>
+              </a>
+              <a href="{{project.github}}" style="color: white; text-decoration: none" class="mb-5">
+                Github
+                <i class="fa-brands fa-github" style="color: #ffffff; font-size: 20px; margin-left: 0px;"></i>
+              </a>  
+            </div>
+            {% comment %} <div style="position: absolute; bottom: 0px">
+                <strong>Status:</strong>  
+                {% if project.status == 'CP' %}
+                <span style="color: green">Completed</span>
+                {%else%}
+                <span style="color: red">In Progress</span>
+                {% endif %}
+            </div> {% endcomment %}
           </div>
-          <p>{{project.description}}</p>
-          <p>
-              <strong>Status:</strong>  
-              {% if project.status == 'CP' %}Completed{%else%}In Progress{% endif %}
-          </p>
         </div>
+
       {% endfor %}
     </div>
 

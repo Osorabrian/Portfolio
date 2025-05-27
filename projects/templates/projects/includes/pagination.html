@@ -1,15 +1,13 @@
-<span class="mt-4">
+<p class="mt-4">
     {% if page.has_previous %}
-        <a href="?page={{page.previous_page_number}}" id="pagination-btn">
-            <i class="fa-solid fa-chevron-left my-auto"></i>
+        <a href="?page={{page.previous_page_number}}" class="btn bg-white me-2 text-black">
+            Prev
         </a>
     {% endif %}
-    <span>
-        Page {{page.number}} of {{page.paginator.num_pages}}
-    </span>
+    Page {{page.number}} of {{page.paginator.num_pages}}
     {% if page.has_next %}
-        <a href="?page={{page.next_page_number}}" id="pagination-btn">
-            <i class="fa-solid fa-chevron-right"></i>
+        <a href="?page={{page.next_page_number}}" class="btn bg-white ms-2 text-black">
+            Next
         </a>
-    {% endif %}        
-</span>
+    {% endif %}   
+    </p>

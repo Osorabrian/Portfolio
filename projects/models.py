@@ -12,6 +12,7 @@ class Project(models.Model):
     slug = models.CharField(max_length=80)
     description = models.TextField()
     url = models.URLField()
+    github = models.URLField()
     status = models.CharField(
         max_length=2,
         choices=Status,

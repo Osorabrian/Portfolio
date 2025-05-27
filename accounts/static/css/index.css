@@ -13,15 +13,14 @@ body{
 
 #project-card{
     background-color: rgba(255, 255, 255, 0.10);
-    max-width: 400px;
-    padding: 20px;
+    max-width: 440px;
     border: 1px solid rgba(255, 255, 255, 0.44)
 }
 
 #projects-div{
     display: flex;
     flex-wrap: wrap;
-    justify-content:space-around;
+    justify-content: space-evenly;
 }
 
 #my-name{
@@ -187,7 +186,27 @@ i{
     background-color: black;
 }
 
-#pagination-btn{
-    border: 1px white solid;
-    border-radius: 50%;
+#pagination-next-btn{
+    margin-left: -40px;
+    margin-top: 10px;
+}
+
+#pagination-prev-btn{
+    margin-right: -40px;
+    margin-top: 10px;
+}
+
+#message-container{
+    margin: 0px auto;
+}
+
+#message{
+    padding: 10px;
+    border: 1px solid green;
+    background-color: rgba(76, 174, 79, 0.5);
+}
+
+#card-footer{
+    position: absolute;
+    bottom: 0;
 }
