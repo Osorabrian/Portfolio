@@ -20,7 +20,12 @@ body{
 #projects-div{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: flex-start;
+    gap: 3rem;
+}
+
+#projects-div-outer{
+    margin: 20px ;
 }
 
 #my-name{
