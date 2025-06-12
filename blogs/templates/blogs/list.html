@@ -6,8 +6,8 @@
 <h1>My Blogs</h1>
 <p>This is a list of my blogs</p>
 {% for post in posts %}
-    <h2>{{post.title}}</h2>
+    <h2><a href="{{post.get_absolute_url}}">{{post.title}}</a></h2>
+    <p><em>Published on {{post.published}}</em></p>
     <p>{{post.content}}</p>
-    <p>{{post.published}}</p>
 {% endfor %}
 {% endblock %}
