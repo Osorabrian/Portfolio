@@ -1,4 +1,5 @@
 from django.db import models
+from django.utils import timezone
 
 # Create your models here.
 class blog(models.Model):
@@ -7,15 +8,18 @@ class blog(models.Model):
         PUBLISHED = 'PB', 'Published'
 
     title = models.CharField(max_length=200)
-    status = models.CharField(max_length=10, choices=Status.choices, default=Status.DRAFT)
     slug = models.SlugField(max_length=200, unique=True)
     content = models.TextField()
+    status = models.CharField(max_length=2, choices=Status.choices, default=Status.DRAFT)
+    published = models.DateTimeField(default=timezone.now)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
 
     def __str__(self):
         return self.title
     
-    def get_absolute_url(self):
-        return reverse('blog_detail', kwargs={'slug': self.slug})
+    class Meta:
+        ordering = ['-published']
+        indexes = [models.Index(fields=['-published'])]
+
     
