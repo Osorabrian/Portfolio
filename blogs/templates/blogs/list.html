@@ -7,7 +7,7 @@
 <p>This is a list of my blogs</p>
 {% for post in posts %}
     <h2><a href="{{post.get_absolute_url}}">{{post.title}}</a></h2>
-    <p><em>Published on {{post.published}}</em></p>
+    <em>Published on {{post.published}}</em>
     <p>{{post.content}}</p>
 {% endfor %}
 {% endblock %}

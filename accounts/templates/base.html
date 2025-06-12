@@ -30,7 +30,8 @@
           {% if request.user.is_authenticated %}
             <ul class="navbar-nav mx-auto">
               <li class="nav-item"><a href="{% url "about:education" %}" class="nav-link text-white fs-5">About</a></li>
-              <li class="nav-item"><a href="{% url "projects" %}" class="nav-link text-white fs-5">My Projects</a></li>
+              <li class="nav-item"><a href="{% url "projects" %}" class="nav-link text-white fs-5">Projects</a></li>
+              <li class="nav-item"><a href="{% url "blogs:post_list" %}" class="nav-link text-white fs-5">Blogs</a></li>
             </ul>
 
               <ul class="navbar-nav">
