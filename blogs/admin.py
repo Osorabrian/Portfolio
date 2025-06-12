@@ -10,4 +10,5 @@ class BlogAdmin(admin.ModelAdmin):
     date_hierarchy = 'published'
     list_filter = ['status', 'published']
     ordering = ['-published']
+    raw_id_fields = ['author']
     show_facets = admin.ShowFacets.ALWAYS
