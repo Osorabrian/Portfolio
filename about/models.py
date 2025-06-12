@@ -1,7 +1,7 @@
 from django.db import models
 
 # Create your models here.
-class Edcation(models.Model):
+class Education(models.Model):
     school = models.CharField(max_length=250)
     course = models.CharField(max_length=250)
     start_date = models.DateField()
