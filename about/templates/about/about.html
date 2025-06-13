@@ -1,7 +1,27 @@
 {% extends 'base.html' %}
+{% load static %}
 
 {% block title %}About Me{% endblock %}
 
 {% block content %}
 <h1>About</h1>
+<section class="about">
+    <div class="about-content">
+      <img src="{% static 'images/pose.png' %}" alt="Brian Osora" class="about-img" />
+      <div class="about-text">
+        <h2>About Me</h2>
+        <p>
+          I’m <strong>Brian Osora</strong> — a full-stack developer, AI enthusiast, and founder of <strong>Vitalsense AI</strong>, building wearable tech to revolutionize health in emerging markets.<br><br>
+          By day, I code with <strong>React</strong> and <strong>Django</strong>. By passion, I explore the cutting edge of <strong>GenAI</strong> and <strong>agentic systems</strong>. I thrive where tech meets creativity — just like this.
+        </p>
+      </div>
+    </div>
+  </section>
+
+<h1>Skills</h1>
+
+<h1>Experience</h1>
+
+<h1>Education</h1>
+
 {% endblock %}
