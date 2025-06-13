@@ -253,3 +253,60 @@ i{
     font-size: 1.1rem;
     line-height: 1.8;
   }
+
+  #skills-slider {
+    padding: 2rem;
+    background-color: #0f2027;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  #skills-slider h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  #slider-container {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 1rem;
+    padding: 1rem 0;
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .skill-card {
+    min-width: 160px;
+    background-color: #1c3a4d;
+    padding: 1rem;
+    border-radius: 12px;
+    text-align: center;
+    scroll-snap-align: start;
+    flex-shrink: 0;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.3);
+    transition: transform 0.3s ease;
+  }
+  
+  .skill-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .skill-card img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    margin-bottom: 0.5rem;
+  }
+  
+  .skill-card span {
+    display: block;
+    font-weight: 600;
+    font-size: 1rem;
+    color: #00ffff;
+  }
+  
+  .slider-container::-webkit-scrollbar {
+    display: none;
+  }
