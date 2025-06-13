@@ -308,3 +308,50 @@ i{
   .slider-container::-webkit-scrollbar {
     display: none;
   }
+  .education-section {
+    color: #fff;
+    padding: 3rem 2rem;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .education-section h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #00ffff;
+  }
+  
+  .education-timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+  }
+  
+  .education-entry {
+    background: #1c3a4d;
+    padding: 1.5rem 2rem;
+    border-radius: 12px;
+    max-width: 500px;
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.2);
+  }
+  
+  .education-entry h3 {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+    color: #00ffff;
+  }
+  
+  .education-entry p {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  
+  .education-entry span {
+    display: block;
+    margin-top: 0.5rem;
+    font-size: 0.95rem;
+    color: #ccc;
+  }
