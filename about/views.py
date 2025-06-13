@@ -7,3 +7,14 @@ def about_view(request):
         'about/about.html'
     )
     
+def education_view(request):
+    return render(
+        request,
+        'about/includes/education.html'
+    )
+    
+def experience_view(request):
+    return render(
+        request,
+        'about/includes/experience.html'
+    )
