@@ -4,7 +4,6 @@
 {% block title %}About Me{% endblock %}
 
 {% block content %}
-<h1>About</h1>
 <section class="about">
     <div class="about-content">
       <img src="{% static 'images/pose.png' %}" alt="Brian Osora" class="about-img" />
@@ -20,10 +19,8 @@
 
 {% include 'about/includes/skills.html' %}
 
+{% include 'about/includes/experience.html' %}
+
 {% include 'about/includes/education.html' %}
-
-<h1>Experience</h1>
-
-<h1>Education</h1>
 
 {% endblock %}
