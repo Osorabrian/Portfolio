@@ -403,3 +403,9 @@ i{
     font-size: 0.95rem;
     color: #cccccc;
   }
+
+#blog-post{
+    display: flex;
+    flex-direction: flex-wrap;
+}
+

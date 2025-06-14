@@ -1,4 +1,5 @@
 {% extends 'base.html' %}
+{% load thumbnail %}
 
 {% block title%}My Blogs{% endblock %}
 
@@ -7,10 +8,17 @@
 <p>This is a list of my blogs</p>
 
 {% for post in posts %}
+<div id="blog-post">
+    <a href="{{post.get_absolute_url}}">
+        <img src="{% thumbnail post.thumbnail 300x0%}" alt="{{post.title}}" id="thumbnail">
+    </a>
+    <div id="blog-post-content">
     <h2><a href="{{post.get_absolute_url}}">{{post.title}}</a></h2>
     <em>Published on {{post.published}}</em>
     <p>{{post.content|truncatewords:30|linebreaks}}</p>
     <p><a href="{{post.get_absolute_url}}">Read more</a></p>
+    </div>    
+</div>
 {% endfor %}
 
 <div style="text-align: center;">

@@ -33,6 +33,7 @@ ALLOWED_HOSTS = ['localhost', 'mysite.com', '127.0.0.1', '.vercel.app']
 INSTALLED_APPS = [
     'django_extensions',
     'social_django',
+    'easy_thumbnails',
     'accounts.apps.AccountsConfig',
     'projects.apps.ProjectsConfig',
     'blogs.apps.BlogsConfig',
