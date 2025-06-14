@@ -406,6 +406,14 @@ i{
 
 #blog-post{
     display: flex;
-    flex-direction: flex-wrap;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
+#blog-post-title{
+    text-decoration: none;
+    color: white;
+}
+#blog-post-content{
+  word-break: break-all;
+}
