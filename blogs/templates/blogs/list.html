@@ -10,12 +10,12 @@
 {% for post in posts %}
 <div id="blog-post">
     <a href="{{post.get_absolute_url}}">
-        <img src="{% thumbnail post.thumbnail 350x0%}" alt="{{post.title}}" id="thumbnail">
+        <img src="{% thumbnail post.thumbnail 300x0%}" alt="{{post.title}}" id="thumbnail">
     </a>
     <div id="blog-post-content">
     <h1><a href="{{post.get_absolute_url}}" id="blog-post-title">{{post.title}}</a></h1>
-    <em>Published on {{post.published}}</em>
-    <p>{{post.content|truncatewords:90|linebreaks}}</p>
+    <em>Published on {{post.published|date:"d M Y"}} by {{post.author}}</em>
+    <p>{{post.content|truncatewords:40|linebreaks}}</p>
     <p><a href="{{post.get_absolute_url}}">Read more</a></p>
     </div>    
 </div>
