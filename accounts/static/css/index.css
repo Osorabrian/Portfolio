@@ -1,7 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
-    margin: 20px;
     background-color: black;
     color: white;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.navbar-toggler{
+  border: none !important;
+  padding: 0.5rem;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(0, 255, 255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none !important;
 }
 
 #profile-pic{
@@ -34,10 +54,34 @@ body{
     font-size: 30px;
 }
 
+.icon-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    border-radius: 10px;
+    padding: 0.5rem;
+    border: 1px solid #00ffff;
+    background-color: #1c3a4d;
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
+    max-width: 300px;
+}
+
 #headline{
+    width: 100%;
     display: flex;
     flex-wrap: wrap-reverse;
     margin-top: 200px;
+    padding: 2rem;
+}
+
+#headline #title{
+    width: 100%;
+    font-size: 5rem
+} 
+#headline #description{
+    width: 100%;
+    font-size: 2rem;
 }
 
 .button{
@@ -200,6 +244,15 @@ i{
 #pagination-prev-btn{
     margin-right: -40px;
     margin-top: 10px;
+}
+
+#portfolio-img {
+  width: 20rem;
+  height: 20rem;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #00ffff;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
 }
 
 #message-container{
@@ -461,6 +514,45 @@ i{
       gap: 1rem;
       padding: 0.5rem;
   }
+#headline{
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+#profile-pic{
+  margin: 0px auto;
+}
+
+  #portfolio-img {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    margin-top: 0 auto;
+    object-fit: cover;
+    border: 4px solid #00ffff;
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
+  }
+
+#home-links{
+  font-size: 0.8rem;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1rem;
+}
+
+#headline #title{
+    width: 100%;
+    font-size: 2.2rem;
+    margin-top: 30px;
+    text-align: center;
+} 
+#headline #description{
+    width: 100%;
+    font-size: 1.2rem;
+    text-align: center;
+}
 
   #blog-post {
       flex-wrap: wrap;
@@ -480,5 +572,9 @@ i{
   #blog-post p {
       font-size: 0.9rem;
       margin: 0.75rem 0;
+  }
+
+  .navbar-brand{
+    font-size: 1.9rem !important;
   }
 }

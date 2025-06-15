@@ -9,22 +9,20 @@
 
     <div id="headline">
       <div>
-        <h2 id="title">Full Stack Developer.</h2>
+        <h2 id="title">Software Engineer.</h2>
         <p id="description">Proficient in Django and React.</p>
-        <div class="mt-5">
+        <div class="mt-5" id="home-links">
           <a href="../../../media/Brian Isaboke - Student - Resume.pdf" download class="text-decoration-none text-white icon-link">
             Downlaod my Resume
-            <i class="fa-solid fa-download ms-1 fs-5" style="color: #ffffff;"></i>
           </a>
-          <a href="{% url "message" %}" class="text-decoration-none text-white">
+          <a href="{% url "message" %}" class="text-decoration-none text-white icon-link">
             Work with me
-            <i class="fa-solid fa-arrow-up-right-from-square ms-1 fs-5" style="color: #ffffff;"></i>
           </a>
           {% comment %} <a href="{% url "projects" %}" class="button">My Projects</a> {% endcomment %}
         </div>
       </div>
       <div id="profile-pic">
-        <img src="{% static 'images/file.png' %}" alt="portfolio" height="400" width="400" style="object-fit:contain"/>
+        <img src="{% static 'images/pose.png' %}" alt="Brian Osora" id="portfolio-img" />
       </div>
     </div>
   </div>
