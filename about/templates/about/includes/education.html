@@ -1,15 +1,13 @@
 <section class="education-section">
     <h1 style="text-align: center;">Education</h1>
     <div class="education-timeline">
-      <div class="education-entry">
-        <h3>University of Example</h3>
-        <p>Bachelor of Design — 2020–2024</p>
-        <span>Majored in Visual Communication</span>
-      </div>
-      <div class="education-entry">
-        <h3>Example High School</h3>
-        <p>High School Diploma — 2016–2020</p>
-        <span>Specialized in Arts and Media</span>
-      </div>
+      {% for education in educations %}
+        <div class="education-entry">
+          <h3>{{ education.school }}</h3>
+          <p>{{ education.course }}</p>
+          <span>{{ education.start_date|date:"F Y" }} - {% if education.end_date %}{{ education.end_date|date:"F Y" }}{% else %}Present{% endif %}</span>
+          <p class="mt-2">{{ education.description }}</p>
+        </div>
+      {% endfor %}
     </div>
 </section>

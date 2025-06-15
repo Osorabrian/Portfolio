@@ -1,20 +1,15 @@
 from django.shortcuts import render
+from .models import Education, Experience
 
 # Create your views here.
 def about_view(request):
+    educations = Education.objects.all()
+    experiences = Experience.objects.all()
     return render(
         request,
-        'about/about.html'
-    )
-    
-def education_view(request):
-    return render(
-        request,
-        'about/includes/education.html'
-    )
-    
-def experience_view(request):
-    return render(
-        request,
-        'about/includes/experience.html'
+        'about/about.html',
+        {
+            'educations': educations,
+            'experiences': experiences
+        }
     )
