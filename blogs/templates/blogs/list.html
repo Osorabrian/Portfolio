@@ -4,19 +4,17 @@
 {% block title%}My Blogs{% endblock %}
 
 {% block content %}
-<h1>My Blogs</h1>
-<p>This is a list of my blogs</p>
 
 {% for post in posts %}
 <div id="blog-post">
-    <a href="{{post.get_absolute_url}}">
-        <img src="{% thumbnail post.thumbnail 300x0%}" alt="{{post.title}}" id="thumbnail">
+    <a href="{{post.get_absolute_url}}" id="blog-post-thumbnail">
+        <img src="{% thumbnail post.thumbnail 320x0%}" alt="{{post.title}}" id="thumbnail">
     </a>
     <div id="blog-post-content">
     <h1><a href="{{post.get_absolute_url}}" id="blog-post-title">{{post.title}}</a></h1>
     <em>Published on {{post.published|date:"d M Y"}} by {{post.author}}</em>
     <p>{{post.content|truncatewords:40|linebreaks}}</p>
-    <p><a href="{{post.get_absolute_url}}">Read more</a></p>
+    <p><a href="{{post.get_absolute_url}}">Read more>></a></p>
     </div>    
 </div>
 {% endfor %}
@@ -24,5 +22,25 @@
 <div style="text-align: center;">
     {% include 'projects/includes/pagination.html' with page=posts %}
 </div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const sliderContainer = document.querySelector('#slider-container');
+    const cards = document.querySelectorAll('.skill-card');
+    
+    // Clone the cards for infinite scroll
+    cards.forEach(card => {
+        const clone = card.cloneNode(true);
+        sliderContainer.appendChild(clone);
+    });
+
+    // Reset animation when it completes
+    sliderContainer.addEventListener('animationend', function() {
+        sliderContainer.style.animation = 'none';
+        sliderContainer.offsetHeight; // Trigger reflow
+        sliderContainer.style.animation = 'scroll 30s linear infinite';
+    });
+});
+</script>
 
 {% endblock %}

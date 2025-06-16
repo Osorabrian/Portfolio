@@ -310,6 +310,7 @@ i{
   #skills-slider {
     color: #fff;
     font-family: 'Inter', sans-serif;
+    padding: 0.5rem;
   }
   
   #skills-slider h2 {
@@ -534,11 +535,8 @@ i{
   }
 
   #blog-post-title {
-      font-size: 1.1rem;
-  }
-
-  #blog-post-content {
-      padding: 0.75rem 0;
+      font-size: 1.3rem;
+      color: #00ffff;
   }
 
   #blog-post p {
@@ -556,5 +554,16 @@ i{
 
   .about-text{
     text-align: center;
+  }
+
+  #blog-post-thumbnail{
+    margin: 0 auto;
+    object-fit: cover;
+  }
+
+  #blog-post-content{
+    padding: 20px;
+    margin-top: -30px;
+    line-height: 1.3;
   }
 }
