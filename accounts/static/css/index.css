@@ -549,4 +549,12 @@ i{
   .navbar-brand{
     font-size: 1.9rem !important;
   }
+
+  .about-img {
+    margin: 0 auto;
+  }
+
+  .about-text{
+    text-align: center;
+  }
 }
