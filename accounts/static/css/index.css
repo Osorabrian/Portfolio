@@ -24,6 +24,23 @@ body{
     box-shadow: none !important;
 }
 
+.icon-white {
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(105%) contrast(100%);
+}
+
+footer{
+  width: 100%;
+}
+
+#skill-name{
+  color: #00ffff;
+  text-shadow: 0 0 10px #00ffff;
+  display: inline-block;
+  min-width: 120px;
+  text-align: left;
+}
+
+
 #profile-pic{
     margin-right: 70px;
     margin-left: auto;
@@ -32,9 +49,13 @@ body{
 }
 
 #project-card{
-    background-color: rgba(255, 255, 255, 0.10);
+    background-color: #1c3a4d;
     max-width: 440px;
-    border: 1px solid rgba(255, 255, 255, 0.44)
+    border: 1px solid #00ffff;
+}
+
+#project-card-title{
+    color: #00ffff;
 }
 
 #projects-div{
@@ -52,6 +73,14 @@ body{
     text-decoration: none;
     color: white;
     font-size: 30px;
+}
+
+#socials{
+  margin: 0 auto;
+  max-width: 500px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 100px; 
 }
 
 .icon-link{
@@ -82,6 +111,10 @@ body{
 #headline #description{
     width: 100%;
     font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
 }
 
 .button{
@@ -111,12 +144,10 @@ nav{
 
 #description{
     font-size: 50px;
-}
-
-#socials{
     display: flex;
     justify-content: center;
-    margin-top: 130px; 
+    align-items: center;
+    gap: 0.5rem;
 }
 
 i{
@@ -487,6 +518,14 @@ i{
       gap: 1rem;
       padding: 0.5rem;
   }
+
+#socials{
+  max-width: 300px;
+  margin: 0 auto;
+  margin-top: 40px; 
+  padding-bottom: 2rem;
+}
+
 #headline{
   margin-top: 20px;
   justify-content: center;

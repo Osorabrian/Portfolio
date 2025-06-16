@@ -10,7 +10,10 @@
     <div id="headline">
       <div>
         <h2 id="title">Software Engineer.</h2>
-        <p id="description">Proficient in Django and React.</p>
+        <p id="description">
+          <span id="skill">Proficient in </span>
+          <span id="skill-name"></span>
+        </p>
         <div class="mt-5" id="home-links">
           <a href="../../../media/Brian Isaboke - Student - Resume.pdf" download class="text-decoration-none text-white icon-link">
             Downlaod my Resume
@@ -25,6 +28,21 @@
         <img src="{% static 'images/pose.png' %}" alt="Brian Osora" id="portfolio-img" />
       </div>
     </div>
+
+    <script>
+      const skills = ["Python", "Django", "HTML & CSS", "JavaScript", "React", "SQL", "Git", "Docker", "CI/CD", "AWS", "Linux", "Networking", "Security"] 
+      let index = 1
+
+      function changeSkill() {
+        const skill = document.getElementById("skill-name")
+        skill.textContent = skills[index]
+        index++
+        if (index >= skills.length) {
+          index = 0
+        }
+      }
+      setInterval(changeSkill, 2000)
+    </script>
   </div>
 
 {% endblock %}

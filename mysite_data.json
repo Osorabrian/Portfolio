@@ -1,0 +1,1947 @@
+[
+{
+  "model": "social_django.usersocialauth",
+  "pk": 7,
+  "fields": {
+    "user": 15,
+    "provider": "google-oauth2",
+    "uid": "osorabrian@gmail.com",
+    "extra_data": {
+      "auth_time": 1750021695,
+      "expires": 3599,
+      "token_type": "Bearer",
+      "access_token": "ya29.a0AW4XtxhalPfk_33qxkNhEE5WM8IxFEzaoMFikfkXIcyrKT46saXO3W-82tuzK4ZG9SDgGowraVQ5Gz5MOR24xSmgq6-33e2nd2cRbsL5I1Ut45J3tFr9z7QBsWasPpCEBltONgvXqmyUrIVGP7Vozgj3apFb8NihUM8aXicbhKoaCgYKAZoSARYSFQHGX2Mi0Fm3p_T_QuddN7SxNvhSbQ0178"
+    },
+    "created": "2025-03-26T03:50:28.565Z",
+    "modified": "2025-06-15T21:08:16.069Z"
+  }
+},
+{
+  "model": "social_django.usersocialauth",
+  "pk": 8,
+  "fields": {
+    "user": 16,
+    "provider": "google-oauth2",
+    "uid": "487neuman@gmail.com",
+    "extra_data": {
+      "auth_time": 1746500613,
+      "expires": 3599,
+      "token_type": "Bearer",
+      "access_token": "ya29.a0AZYkNZh_DVFn333k7iw4nDqhmF0zTRtGePrgjm3Wk9_nruj4CofEFtHZ_qaK2mg28NIx2QWzenXMORFtxRPy99WPtLNbvbyrUJDt2vu-9C6-P0jAr7hsoZIwdiIHYWBrrSY7yT5zR4OuQDXHmtJuGnzIP48ZXxYJFc2-RPWs4h0aCgYKAdYSARQSFQHGX2MibEhaizSy6r2tCSWN7tW3aw0178"
+    },
+    "created": "2025-05-06T03:03:33.090Z",
+    "modified": "2025-05-06T03:03:33.093Z"
+  }
+},
+{
+  "model": "easy_thumbnails.source",
+  "pk": 1,
+  "fields": {
+    "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+    "name": "blogs/2025/06/13/aircraft-private-jets-gulfstream-g650er-370525_d05896f550c60e07.jpg",
+    "modified": "2025-06-16T02:20:48.776Z"
+  }
+},
+{
+  "model": "easy_thumbnails.source",
+  "pk": 2,
+  "fields": {
+    "storage_hash": "0d677af76ca5bf5575d614e04932c3a4",
+    "name": "blogs/2025/06/13/aircraft-private-jets-gulfstream-g650er-370525_e108bac5bdc79e09_920X485.webp",
+    "modified": "2025-06-16T02:20:48.796Z"
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 1,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "blogs/2025/06/13/aircraft-private-jets-gulfstream-g650er-370525_d05896f550c60e07.jpg.300x0_q85.jpg",
+    "modified": "2025-06-14T00:18:36.716Z",
+    "source": 1
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 2,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "blogs/2025/06/13/aircraft-private-jets-gulfstream-g650er-370525_e108bac5bdc79e09_920X485.webp.300x0_q85.jpg",
+    "modified": "2025-06-14T00:18:41.456Z",
+    "source": 2
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 3,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "blogs/2025/06/13/aircraft-private-jets-gulfstream-g650er-370525_e108bac5bdc79e09_920X485.webp.500x0_q85.jpg",
+    "modified": "2025-06-14T00:22:36.726Z",
+    "source": 2
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 4,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "blogs/2025/06/13/aircraft-private-jets-gulfstream-g650er-370525_e108bac5bdc79e09_920X485.webp.350x0_q85.jpg",
+    "modified": "2025-06-14T00:22:48.342Z",
+    "source": 2
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 5,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "blogs/2025/06/13/aircraft-private-jets-gulfstream-g650er-370525_d05896f550c60e07.jpg.350x0_q85.jpg",
+    "modified": "2025-06-14T01:10:53.220Z",
+    "source": 1
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 6,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "blogs/2025/06/13/aircraft-private-jets-gulfstream-g650er-370525_d05896f550c60e07.jpg.320x0_q85.jpg",
+    "modified": "2025-06-16T02:20:48.780Z",
+    "source": 1
+  }
+},
+{
+  "model": "easy_thumbnails.thumbnail",
+  "pk": 7,
+  "fields": {
+    "storage_hash": "d26becbf46ac48eda79c7a39a13a02dd",
+    "name": "blogs/2025/06/13/aircraft-private-jets-gulfstream-g650er-370525_e108bac5bdc79e09_920X485.webp.320x0_q85.jpg",
+    "modified": "2025-06-16T02:20:48.797Z",
+    "source": 2
+  }
+},
+{
+  "model": "accounts.contact",
+  "pk": 1,
+  "fields": {
+    "name": "Brian",
+    "email": "brianosora.isaboke@jessup.edu",
+    "message": "Submit",
+    "published": "2025-01-23T20:41:22.701Z",
+    "created": "2025-01-23T20:41:22.705Z",
+    "updated": "2025-01-23T20:41:22.705Z"
+  }
+},
+{
+  "model": "accounts.contact",
+  "pk": 2,
+  "fields": {
+    "name": "Brian Isaboke",
+    "email": "emma@gmail.com",
+    "message": "Submit",
+    "published": "2025-01-23T20:41:44.310Z",
+    "created": "2025-01-23T20:41:44.312Z",
+    "updated": "2025-01-23T20:41:44.312Z"
+  }
+},
+{
+  "model": "accounts.contact",
+  "pk": 3,
+  "fields": {
+    "name": "Brian Isaboke",
+    "email": "emma@gmail.com",
+    "message": "Submit",
+    "published": "2025-01-23T20:47:31.192Z",
+    "created": "2025-01-23T20:47:31.209Z",
+    "updated": "2025-01-23T20:47:31.209Z"
+  }
+},
+{
+  "model": "accounts.contact",
+  "pk": 4,
+  "fields": {
+    "name": "Brian Isaboke",
+    "email": "emma@gmail.com",
+    "message": "Submit",
+    "published": "2025-01-23T20:48:07.355Z",
+    "created": "2025-01-23T20:48:07.359Z",
+    "updated": "2025-01-23T20:48:07.359Z"
+  }
+},
+{
+  "model": "accounts.contact",
+  "pk": 5,
+  "fields": {
+    "name": "Brian Isaboke",
+    "email": "emma@gmail.com",
+    "message": "Submit",
+    "published": "2025-01-23T20:48:47.328Z",
+    "created": "2025-01-23T20:48:47.333Z",
+    "updated": "2025-01-23T20:48:47.334Z"
+  }
+},
+{
+  "model": "accounts.contact",
+  "pk": 6,
+  "fields": {
+    "name": "jkbnjh",
+    "email": "kjnkjnkj@hotmail.com",
+    "message": "Submit",
+    "published": "2025-01-23T20:51:15.414Z",
+    "created": "2025-01-23T20:51:15.417Z",
+    "updated": "2025-01-23T20:51:15.417Z"
+  }
+},
+{
+  "model": "accounts.contact",
+  "pk": 7,
+  "fields": {
+    "name": "jkbnjh",
+    "email": "kjnkjnkj@hotmail.com",
+    "message": "Submit",
+    "published": "2025-01-23T20:53:52.687Z",
+    "created": "2025-01-23T20:53:52.692Z",
+    "updated": "2025-01-23T20:53:52.692Z"
+  }
+},
+{
+  "model": "accounts.contact",
+  "pk": 8,
+  "fields": {
+    "name": "jkbnjh",
+    "email": "kjnkjnkj@hotmail.com",
+    "message": "Submit",
+    "published": "2025-01-23T20:53:56.433Z",
+    "created": "2025-01-23T20:53:56.435Z",
+    "updated": "2025-01-23T20:53:56.435Z"
+  }
+},
+{
+  "model": "accounts.contact",
+  "pk": 9,
+  "fields": {
+    "name": "jkbnjh",
+    "email": "kjnkjnkj@hotmail.com",
+    "message": "Submit",
+    "published": "2025-01-23T20:53:58.122Z",
+    "created": "2025-01-23T20:53:58.123Z",
+    "updated": "2025-01-23T20:53:58.123Z"
+  }
+},
+{
+  "model": "accounts.contact",
+  "pk": 10,
+  "fields": {
+    "name": "kjnjk",
+    "email": "brianosora.isaboke@jessup.edu",
+    "message": "Submit",
+    "published": "2025-01-23T20:54:46.387Z",
+    "created": "2025-01-23T20:54:46.389Z",
+    "updated": "2025-01-23T20:54:46.389Z"
+  }
+},
+{
+  "model": "accounts.contact",
+  "pk": 11,
+  "fields": {
+    "name": "Brian Isaboke",
+    "email": "osorabrian@gmail.com",
+    "message": "Submit",
+    "published": "2025-01-23T21:02:20.426Z",
+    "created": "2025-01-23T21:02:20.432Z",
+    "updated": "2025-01-23T21:02:20.432Z"
+  }
+},
+{
+  "model": "accounts.contact",
+  "pk": 12,
+  "fields": {
+    "name": "Brian Isaboke",
+    "email": "osorabrian@gmail.com",
+    "message": "Submit",
+    "published": "2025-01-23T21:08:15.610Z",
+    "created": "2025-01-23T21:08:15.616Z",
+    "updated": "2025-01-23T21:08:15.616Z"
+  }
+},
+{
+  "model": "accounts.contact",
+  "pk": 13,
+  "fields": {
+    "name": "Brian Isaboke",
+    "email": "osorabrian@gmail.com",
+    "message": "Submit",
+    "published": "2025-01-23T21:08:48.173Z",
+    "created": "2025-01-23T21:08:48.176Z",
+    "updated": "2025-01-23T21:08:48.176Z"
+  }
+},
+{
+  "model": "accounts.contact",
+  "pk": 14,
+  "fields": {
+    "name": "Brian Isaboke",
+    "email": "osorabrian@gmail.com",
+    "message": "Submit",
+    "published": "2025-01-23T21:09:02.659Z",
+    "created": "2025-01-23T21:09:02.660Z",
+    "updated": "2025-01-23T21:09:02.660Z"
+  }
+},
+{
+  "model": "accounts.profile",
+  "pk": 8,
+  "fields": {
+    "user": 14,
+    "photo": "profiles/2025/02/25/greencqard_2.JPG",
+    "created": "2025-02-23T20:36:39.001Z",
+    "updated": "2025-02-25T23:39:33.058Z"
+  }
+},
+{
+  "model": "accounts.profile",
+  "pk": 9,
+  "fields": {
+    "user": 15,
+    "photo": "profiles/2025/05/06/greencqard_2.JPG",
+    "created": "2025-03-26T03:50:28.562Z",
+    "updated": "2025-05-06T14:29:42.473Z"
+  }
+},
+{
+  "model": "accounts.profile",
+  "pk": 10,
+  "fields": {
+    "user": 16,
+    "photo": "",
+    "created": "2025-05-06T03:03:33.087Z",
+    "updated": "2025-05-06T03:03:33.087Z"
+  }
+},
+{
+  "model": "projects.project",
+  "pk": 1,
+  "fields": {
+    "title": "AeroSkyMart",
+    "slug": "aeroskymart",
+    "description": "This is an ecommerce website for aviation products. All aviation instruments, stationery and materials can be found over here.",
+    "url": "https://aero-sky-mart.vercel.app/",
+    "github": "",
+    "status": "IP",
+    "published": "2025-01-23T21:55:48Z",
+    "created": "2025-01-23T21:57:06.003Z",
+    "updated": "2025-01-23T21:57:06.003Z"
+  }
+},
+{
+  "model": "projects.project",
+  "pk": 2,
+  "fields": {
+    "title": "ConnectVerse",
+    "slug": "connectverse",
+    "description": "This is a rapid developed social platform to view, like, unlike and comment in posts. You can log in and follow other users and see posts of users you follow.",
+    "url": "https://connectverse.vercel.app/",
+    "github": "",
+    "status": "CP",
+    "published": "2025-01-24T15:19:14Z",
+    "created": "2025-01-24T15:21:26.700Z",
+    "updated": "2025-01-24T15:21:26.700Z"
+  }
+},
+{
+  "model": "projects.project",
+  "pk": 3,
+  "fields": {
+    "title": "Bot Battlr",
+    "slug": "bot-battler",
+    "description": "Bot Battlr is a react web app that allows a user to create an army of robots.\r\nIt enables the user to: view a list of robots, enlist a robot by clicking in the card, delist a robot by clicking on the card on the green div, Delete a bot from the database by clicking the red X icon on the card.",
+    "url": "https://bot-battlr-alpha.vercel.app/",
+    "github": "",
+    "status": "CP",
+    "published": "2025-01-24T15:31:53Z",
+    "created": "2025-01-24T15:33:06.720Z",
+    "updated": "2025-01-28T22:46:03.554Z"
+  }
+},
+{
+  "model": "projects.project",
+  "pk": 4,
+  "fields": {
+    "title": "google",
+    "slug": "google",
+    "description": "kjnkje erfgeriofger fero goperger gpoierpoferopgre poeroperpogre poierpeproge rpoeir ergo eropgerg poeroiperogreg poeoprgoerg.",
+    "url": "https://mail.google.com/mail/u/0/#inbox",
+    "github": "",
+    "status": "IP",
+    "published": "2025-01-28T23:33:49Z",
+    "created": "2025-01-28T23:34:22.099Z",
+    "updated": "2025-01-28T23:34:22.099Z"
+  }
+},
+{
+  "model": "projects.project",
+  "pk": 5,
+  "fields": {
+    "title": "knkjlnkj",
+    "slug": "knkjlnkj",
+    "description": "kjnkjnkjnkjn lknklnlkn lklknlnkl",
+    "url": "https://docs.djangoproject.com/en/5.1/ref/forms/api/#bound-and-unbound-forms",
+    "github": "",
+    "status": "CP",
+    "published": "2025-02-23T19:50:01Z",
+    "created": "2025-02-23T19:50:29.079Z",
+    "updated": "2025-02-23T19:50:29.079Z"
+  }
+},
+{
+  "model": "projects.project",
+  "pk": 6,
+  "fields": {
+    "title": "kjnkjb",
+    "slug": "kjnkjb",
+    "description": "jhbjhbjjbjh jbkjbkjbjk jnkjkj",
+    "url": "https://docs.djangoproject.com/en/5.1/ref/forms/api/#bound-and-unbound-forms",
+    "github": "",
+    "status": "CP",
+    "published": "2025-02-23T19:50:47Z",
+    "created": "2025-02-23T19:50:58.320Z",
+    "updated": "2025-02-23T19:50:58.320Z"
+  }
+},
+{
+  "model": "blogs.post",
+  "pk": 1,
+  "fields": {
+    "title": "Gulfstream 650ER",
+    "slug": "gulfstream-650er",
+    "author": 17,
+    "thumbnail": "blogs/2025/06/13/aircraft-private-jets-gulfstream-g650er-370525_e108bac5bdc79e09_920X485.webp",
+    "content": "The Gulfstream G650ER is an extended-range version of the Gulfstream G650, a large business jet produced by Gulfstream Aerospace.\r\n It was introduced in 2014 and is capable of flying 7,500 nautical miles (13,900 km; 8,600 mi) at Mach 0.85, thanks to its increased fuel capacity of 4,000 pounds (1,814 kg).\r\n The G650ER is powered by two Rolls-Royce BR725 turbofans, which provide a takeoff thrust of 16,900 lbf (75.2 kN).\r\n\r\nThe G650ER has a maximum takeoff weight (MTOW) of 103,600 lb (47,000 kg) and a basic operating weight (BOW) of 54,000 lb (24,000 kg).\r\n It can carry a maximum payload of 6,500 lb (2,900 kg) and has a cabin volume of 2,138 cu ft (60.5 m3).\r\n The G650ER's range is 7,500 nautical miles (13,900 km; 8,600 mi) at Mach 0.85, and it can reach a maximum operating speed of Mach 0.925 (531 kn; 983 km/h; 611 mph).",
+    "status": "PB",
+    "published": "2025-06-12T14:00:45Z",
+    "created_at": "2025-06-12T14:01:13.460Z",
+    "updated_at": "2025-06-14T05:13:55.082Z"
+  }
+},
+{
+  "model": "blogs.post",
+  "pk": 2,
+  "fields": {
+    "title": "second post",
+    "slug": "second-post",
+    "author": 17,
+    "thumbnail": "blogs/2025/06/13/aircraft-private-jets-gulfstream-g650er-370525_d05896f550c60e07.jpg",
+    "content": "vevio oierfio ereirfuoi ewwef weif wqe9if weop fwopefi opwef owpefi oweif opwe wopeif weopf wope fopweif owpeif woeweoifi we opwief oweiof weoif owepfi ew weoipfi owefoi wef weif iopwef weoif weopif. weoif oweif we wopeif weopf weoipf oweif wefi ewofwe",
+    "status": "PB",
+    "published": "2025-06-12T14:56:09Z",
+    "created_at": "2025-06-12T14:56:39.178Z",
+    "updated_at": "2025-06-13T23:54:33.948Z"
+  }
+},
+{
+  "model": "about.education",
+  "pk": 1,
+  "fields": {
+    "school": "William Jessup University",
+    "course": "Master's in Computer Science",
+    "start_date": "2024-08-19",
+    "end_date": "2026-08-28",
+    "description": "Pursuing a Master of Science in Computer Science.",
+    "created": "2025-06-15T05:10:03.949Z",
+    "updated": "2025-06-16T01:41:29.770Z"
+  }
+},
+{
+  "model": "about.education",
+  "pk": 2,
+  "fields": {
+    "school": "Moringa School",
+    "course": "Certificate in Software Engineering",
+    "start_date": "2022-11-07",
+    "end_date": "2023-06-30",
+    "description": "Graduated with a certificate in Software Engineering.",
+    "created": "2025-06-15T05:12:01.521Z",
+    "updated": "2025-06-15T05:12:01.521Z"
+  }
+},
+{
+  "model": "about.education",
+  "pk": 3,
+  "fields": {
+    "school": "Africa Nazarene University",
+    "course": "Bachelor's in Computer Science",
+    "start_date": "2018-05-07",
+    "end_date": "2022-07-29",
+    "description": "Graduated with a Bachelor of Science in Computer Science.",
+    "created": "2025-06-15T05:14:09.704Z",
+    "updated": "2025-06-16T01:41:21.472Z"
+  }
+},
+{
+  "model": "about.experience",
+  "pk": 1,
+  "fields": {
+    "company": "DAST Consulting Services",
+    "position": "Software Engineer",
+    "start_date": "2025-03-03",
+    "end_date": "2025-05-30",
+    "description": "Front-end engineers specialize in the development of user interface (UI) design for the user-facing side of an application or website. They require knowledge of visual design elements, including layout and aesthetics, and a thorough understanding of",
+    "created": "2025-06-15T22:40:37.431Z",
+    "updated": "2025-06-15T22:40:37.431Z"
+  }
+},
+{
+  "model": "about.experience",
+  "pk": 2,
+  "fields": {
+    "company": "Nuclear Power & Energy Agency",
+    "position": "IT Specialist",
+    "start_date": "2023-07-03",
+    "end_date": "2024-07-03",
+    "description": "Ensured the smooth and efficient operation of the IT infrastructure by monitoring systems, troubleshooting issues, and minimizing downtime.",
+    "created": "2025-06-15T22:48:58.110Z",
+    "updated": "2025-06-15T22:48:58.110Z"
+  }
+},
+{
+  "model": "about.experience",
+  "pk": 3,
+  "fields": {
+    "company": "Rebirth of a Queen",
+    "position": "Software Engineer",
+    "start_date": "2023-04-03",
+    "end_date": "2023-06-30",
+    "description": "Collaborated with a team to develop a web application for a safe house supporting victims of gender-based violence, enabling efficient fundraising to provide essential resources and assistance to the victims.",
+    "created": "2025-06-15T22:50:24.080Z",
+    "updated": "2025-06-15T22:50:24.080Z"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2025-06-12T01:02:37.742Z",
+    "user": 17,
+    "content_type": 4,
+    "object_id": "13",
+    "object_repr": "brayo",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2025-06-12T01:02:45.790Z",
+    "user": 17,
+    "content_type": 4,
+    "object_id": "12",
+    "object_repr": "brianosora",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2025-06-12T01:03:34.351Z",
+    "user": 17,
+    "content_type": 18,
+    "object_id": "1",
+    "object_repr": "My First Blog",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2025-06-12T02:48:44.589Z",
+    "user": 17,
+    "content_type": 18,
+    "object_id": "1",
+    "object_repr": "My First Blog",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Content\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2025-06-12T14:01:13.461Z",
+    "user": 17,
+    "content_type": 18,
+    "object_id": "1",
+    "object_repr": "new post",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2025-06-12T14:56:39.180Z",
+    "user": 17,
+    "content_type": 18,
+    "object_id": "2",
+    "object_repr": "second post",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2025-06-13T23:28:14.082Z",
+    "user": 17,
+    "content_type": 18,
+    "object_id": "1",
+    "object_repr": "new post",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Thumbnail\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2025-06-13T23:54:33.950Z",
+    "user": 17,
+    "content_type": 18,
+    "object_id": "2",
+    "object_repr": "second post",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Thumbnail\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2025-06-14T01:08:08.638Z",
+    "user": 17,
+    "content_type": 18,
+    "object_id": "1",
+    "object_repr": "new post",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Content\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2025-06-14T05:13:55.085Z",
+    "user": 17,
+    "content_type": 18,
+    "object_id": "1",
+    "object_repr": "Gulfstream 650ER",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Title\", \"Slug\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2025-06-15T05:10:03.952Z",
+    "user": 17,
+    "content_type": 16,
+    "object_id": "1",
+    "object_repr": "Masters of Sceince in Computer Science taken at William Jessup University added.",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2025-06-15T05:12:01.524Z",
+    "user": 17,
+    "content_type": 16,
+    "object_id": "2",
+    "object_repr": "Certificate in Software Engineering taken at Moringa School added.",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2025-06-15T05:14:09.709Z",
+    "user": 17,
+    "content_type": 16,
+    "object_id": "3",
+    "object_repr": "Bachelor of Science in Computer Science taken at Africa Nazarene University added.",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2025-06-15T22:40:37.433Z",
+    "user": 17,
+    "content_type": 17,
+    "object_id": "1",
+    "object_repr": "Software Engineer at DAST Consulting Services added.",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2025-06-15T22:48:58.114Z",
+    "user": 17,
+    "content_type": 17,
+    "object_id": "2",
+    "object_repr": "IT Specialist at Nuclear Power & Energy Agency added.",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2025-06-15T22:50:24.081Z",
+    "user": 17,
+    "content_type": 17,
+    "object_id": "3",
+    "object_repr": "Software Engineer at Rebirth of a Queen added.",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2025-06-16T01:41:03.906Z",
+    "user": 17,
+    "content_type": 16,
+    "object_id": "1",
+    "object_repr": "Masters in Computer Science taken at William Jessup University added.",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Course\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2025-06-16T01:41:21.473Z",
+    "user": 17,
+    "content_type": 16,
+    "object_id": "3",
+    "object_repr": "Bachelor's in Computer Science taken at Africa Nazarene University added.",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Course\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2025-06-16T01:41:29.771Z",
+    "user": 17,
+    "content_type": 16,
+    "object_id": "1",
+    "object_repr": "Master's in Computer Science taken at William Jessup University added.",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Course\"]}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add message",
+    "content_type": 7,
+    "codename": "add_message"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change message",
+    "content_type": 7,
+    "codename": "change_message"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete message",
+    "content_type": 7,
+    "codename": "delete_message"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view message",
+    "content_type": 7,
+    "codename": "view_message"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add contact",
+    "content_type": 8,
+    "codename": "add_contact"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change contact",
+    "content_type": 8,
+    "codename": "change_contact"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete contact",
+    "content_type": 8,
+    "codename": "delete_contact"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view contact",
+    "content_type": 8,
+    "codename": "view_contact"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add project",
+    "content_type": 9,
+    "codename": "add_project"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change project",
+    "content_type": 9,
+    "codename": "change_project"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete project",
+    "content_type": 9,
+    "codename": "delete_project"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view project",
+    "content_type": 9,
+    "codename": "view_project"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add profile",
+    "content_type": 10,
+    "codename": "add_profile"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change profile",
+    "content_type": 10,
+    "codename": "change_profile"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete profile",
+    "content_type": 10,
+    "codename": "delete_profile"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view profile",
+    "content_type": 10,
+    "codename": "view_profile"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add association",
+    "content_type": 11,
+    "codename": "add_association"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change association",
+    "content_type": 11,
+    "codename": "change_association"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete association",
+    "content_type": 11,
+    "codename": "delete_association"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view association",
+    "content_type": 11,
+    "codename": "view_association"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 45,
+  "fields": {
+    "name": "Can add code",
+    "content_type": 12,
+    "codename": "add_code"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 46,
+  "fields": {
+    "name": "Can change code",
+    "content_type": 12,
+    "codename": "change_code"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 47,
+  "fields": {
+    "name": "Can delete code",
+    "content_type": 12,
+    "codename": "delete_code"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 48,
+  "fields": {
+    "name": "Can view code",
+    "content_type": 12,
+    "codename": "view_code"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 49,
+  "fields": {
+    "name": "Can add nonce",
+    "content_type": 13,
+    "codename": "add_nonce"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 50,
+  "fields": {
+    "name": "Can change nonce",
+    "content_type": 13,
+    "codename": "change_nonce"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 51,
+  "fields": {
+    "name": "Can delete nonce",
+    "content_type": 13,
+    "codename": "delete_nonce"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 52,
+  "fields": {
+    "name": "Can view nonce",
+    "content_type": 13,
+    "codename": "view_nonce"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 53,
+  "fields": {
+    "name": "Can add user social auth",
+    "content_type": 14,
+    "codename": "add_usersocialauth"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 54,
+  "fields": {
+    "name": "Can change user social auth",
+    "content_type": 14,
+    "codename": "change_usersocialauth"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 55,
+  "fields": {
+    "name": "Can delete user social auth",
+    "content_type": 14,
+    "codename": "delete_usersocialauth"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 56,
+  "fields": {
+    "name": "Can view user social auth",
+    "content_type": 14,
+    "codename": "view_usersocialauth"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 57,
+  "fields": {
+    "name": "Can add partial",
+    "content_type": 15,
+    "codename": "add_partial"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 58,
+  "fields": {
+    "name": "Can change partial",
+    "content_type": 15,
+    "codename": "change_partial"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 59,
+  "fields": {
+    "name": "Can delete partial",
+    "content_type": 15,
+    "codename": "delete_partial"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 60,
+  "fields": {
+    "name": "Can view partial",
+    "content_type": 15,
+    "codename": "view_partial"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 61,
+  "fields": {
+    "name": "Can add education",
+    "content_type": 16,
+    "codename": "add_education"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 62,
+  "fields": {
+    "name": "Can change education",
+    "content_type": 16,
+    "codename": "change_education"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 63,
+  "fields": {
+    "name": "Can delete education",
+    "content_type": 16,
+    "codename": "delete_education"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 64,
+  "fields": {
+    "name": "Can view education",
+    "content_type": 16,
+    "codename": "view_education"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 65,
+  "fields": {
+    "name": "Can add experience",
+    "content_type": 17,
+    "codename": "add_experience"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 66,
+  "fields": {
+    "name": "Can change experience",
+    "content_type": 17,
+    "codename": "change_experience"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 67,
+  "fields": {
+    "name": "Can delete experience",
+    "content_type": 17,
+    "codename": "delete_experience"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 68,
+  "fields": {
+    "name": "Can view experience",
+    "content_type": 17,
+    "codename": "view_experience"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 69,
+  "fields": {
+    "name": "Can add blog",
+    "content_type": 18,
+    "codename": "add_blog"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 70,
+  "fields": {
+    "name": "Can change blog",
+    "content_type": 18,
+    "codename": "change_blog"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 71,
+  "fields": {
+    "name": "Can delete blog",
+    "content_type": 18,
+    "codename": "delete_blog"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 72,
+  "fields": {
+    "name": "Can view blog",
+    "content_type": 18,
+    "codename": "view_blog"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 73,
+  "fields": {
+    "name": "Can add post",
+    "content_type": 18,
+    "codename": "add_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 74,
+  "fields": {
+    "name": "Can change post",
+    "content_type": 18,
+    "codename": "change_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 75,
+  "fields": {
+    "name": "Can delete post",
+    "content_type": 18,
+    "codename": "delete_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 76,
+  "fields": {
+    "name": "Can view post",
+    "content_type": 18,
+    "codename": "view_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 77,
+  "fields": {
+    "name": "Can add edcation",
+    "content_type": 19,
+    "codename": "add_edcation"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 78,
+  "fields": {
+    "name": "Can change edcation",
+    "content_type": 19,
+    "codename": "change_edcation"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 79,
+  "fields": {
+    "name": "Can delete edcation",
+    "content_type": 19,
+    "codename": "delete_edcation"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 80,
+  "fields": {
+    "name": "Can view edcation",
+    "content_type": 19,
+    "codename": "view_edcation"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 81,
+  "fields": {
+    "name": "Can add source",
+    "content_type": 20,
+    "codename": "add_source"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 82,
+  "fields": {
+    "name": "Can change source",
+    "content_type": 20,
+    "codename": "change_source"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 83,
+  "fields": {
+    "name": "Can delete source",
+    "content_type": 20,
+    "codename": "delete_source"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 84,
+  "fields": {
+    "name": "Can view source",
+    "content_type": 20,
+    "codename": "view_source"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 85,
+  "fields": {
+    "name": "Can add thumbnail",
+    "content_type": 21,
+    "codename": "add_thumbnail"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 86,
+  "fields": {
+    "name": "Can change thumbnail",
+    "content_type": 21,
+    "codename": "change_thumbnail"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 87,
+  "fields": {
+    "name": "Can delete thumbnail",
+    "content_type": 21,
+    "codename": "delete_thumbnail"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 88,
+  "fields": {
+    "name": "Can view thumbnail",
+    "content_type": 21,
+    "codename": "view_thumbnail"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 89,
+  "fields": {
+    "name": "Can add thumbnail dimensions",
+    "content_type": 22,
+    "codename": "add_thumbnaildimensions"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 90,
+  "fields": {
+    "name": "Can change thumbnail dimensions",
+    "content_type": 22,
+    "codename": "change_thumbnaildimensions"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 91,
+  "fields": {
+    "name": "Can delete thumbnail dimensions",
+    "content_type": 22,
+    "codename": "delete_thumbnaildimensions"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 92,
+  "fields": {
+    "name": "Can view thumbnail dimensions",
+    "content_type": 22,
+    "codename": "view_thumbnaildimensions"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 14,
+  "fields": {
+    "password": "pbkdf2_sha256$720000$jZMPDSjgALVfPJLOhxjB2l$gpE15TKdMNcCxWXn7Y5tlcon7B26lW9nknGucMTdh8s=",
+    "last_login": "2025-03-07T01:55:04.723Z",
+    "is_superuser": false,
+    "username": "osorabrian",
+    "first_name": "BRIAN",
+    "last_name": "ISABOKE",
+    "email": "osorabrian@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-02-23T20:36:38.794Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 15,
+  "fields": {
+    "password": "!IcV6uClX5DGVstC0c9JS9IPpIrOJacNbeax7UhDy",
+    "last_login": "2025-06-15T21:08:16.112Z",
+    "is_superuser": false,
+    "username": "osorabrian945d7716ec9647da",
+    "first_name": "Brian",
+    "last_name": "Isaboke",
+    "email": "osorabrian@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-03-26T03:50:28.554Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 16,
+  "fields": {
+    "password": "!JUChkLFmCCuuRwWfHwYE1umXTLvePi6hrNz3DOuA",
+    "last_login": "2025-05-06T03:03:33.105Z",
+    "is_superuser": false,
+    "username": "487neuman",
+    "first_name": "Brian",
+    "last_name": "Isaboke",
+    "email": "487neuman@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-05-06T03:03:33.082Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 17,
+  "fields": {
+    "password": "pbkdf2_sha256$720000$LWJu3RnDCBNUZqgQu5YEXt$vjpChV87mFh7JjFR6YH6Lrpn6qlRUoI7HoSG2eX7Xck=",
+    "last_login": "2025-06-15T22:30:24.590Z",
+    "is_superuser": true,
+    "username": "Brian",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2025-06-12T01:01:59.537Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "accounts",
+    "model": "message"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "accounts",
+    "model": "contact"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "projects",
+    "model": "project"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "accounts",
+    "model": "profile"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "social_django",
+    "model": "association"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 12,
+  "fields": {
+    "app_label": "social_django",
+    "model": "code"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 13,
+  "fields": {
+    "app_label": "social_django",
+    "model": "nonce"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 14,
+  "fields": {
+    "app_label": "social_django",
+    "model": "usersocialauth"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 15,
+  "fields": {
+    "app_label": "social_django",
+    "model": "partial"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 16,
+  "fields": {
+    "app_label": "about",
+    "model": "education"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 17,
+  "fields": {
+    "app_label": "about",
+    "model": "experience"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 18,
+  "fields": {
+    "app_label": "blogs",
+    "model": "post"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 19,
+  "fields": {
+    "app_label": "about",
+    "model": "edcation"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 20,
+  "fields": {
+    "app_label": "easy_thumbnails",
+    "model": "source"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 21,
+  "fields": {
+    "app_label": "easy_thumbnails",
+    "model": "thumbnail"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 22,
+  "fields": {
+    "app_label": "easy_thumbnails",
+    "model": "thumbnaildimensions"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "2rj25xnvj0xxwddyka3lryu4koaiyntc",
+  "fields": {
+    "session_data": ".eJxVkM2qwjAQRt8lay1t_kzcKYI7K7i44iakcSatlkRNlQuX--626sKuBr7hfGeYP-Jj9C1Mo713NTWpsx2QOfllfrdYuWYTSrkOeNhfLiet6ePnWh582C7JhJiBMPcEN9Mce6QQ47Cy7gxh2KToGtsaF2-QfdKUvb3Z-jXKxWAf87VNdQ87i5JDxbXKacEkdSpXAKggF0xLrGZHLHSVU6Y5UsFRWMpQcWB0hihF0Zd-_K_q1qbOtNE34evA0Q_I_xMjb1zi:1uC9Es:WJ6OBOkzl9mLjCJvJWfjeivkqB6fviHMt9JbiTKTio4",
+    "expire_date": "2025-05-20T03:45:02.662Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "8l1izmfapgyo52mhrtsmp8ju74q3mby0",
+  "fields": {
+    "session_data": "eyJfcGFzc3dvcmRfcmVzZXRfdG9rZW4iOiJjazF3enMtMGRkZmU4NjVjODdlNDU0MmZiMDlkYTViNzU4M2MxZDYifQ:1taijC:wKY-qS1MLDNuh-PnSSYpSydbV3jtwZ_bp90n2JodSaY",
+    "expire_date": "2025-02-05T21:57:38.389Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "8ubbuenemz3g81ipveh8nweiddq3euv0",
+  "fields": {
+    "session_data": "eyJnb29nbGUtb2F1dGgyX3N0YXRlIjoiZ2lHYkJiU1dmSWdkYVNhUVVwYUxIeVlBWDdVU2N0WXIifQ:1uM7b8:tw8WyZBTKHs16YIBhpgUUTHAC_jcAcuAAUFIV0kEeI4",
+    "expire_date": "2025-06-16T16:01:14.491Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "dadeqiiznknxp41x3o1m4rskn98pmyou",
+  "fields": {
+    "session_data": "eyJfcGFzc3dvcmRfcmVzZXRfdG9rZW4iOiJjazF3enMtMGRkZmU4NjVjODdlNDU0MmZiMDlkYTViNzU4M2MxZDYifQ:1taijL:lTpl9dEYp8zziAjbCJS4yQafMBnYUWahJxsZcKgUQIY",
+    "expire_date": "2025-02-05T21:57:47.258Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "h3noygwcyry9fz1ki8q4h4ewsdyduw12",
+  "fields": {
+    "session_data": ".eJxVjMEOwiAQRP-FsyEsLWA9evcbyLK7SNXQpLQn47_bJj3oaZJ5b-atIq5LiWuTOY6sLgqCOv2WCekpdSf8wHqfNE11mcekd0UftOnbxPK6Hu7fQcFWtrUz7MSCgLchG2OAhsEgukCJrGHxWzClHEA8I51T39kElkNne8rk1OcLDsg4oA:1uQvrs:-NRsnJtYN9jPi7edfymHtXQARY9Vf1i_0dOEjS9wHjw",
+    "expire_date": "2025-06-29T22:30:24.593Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "jsjwi2448ynab0rj0jezho48e7v8n8vs",
+  "fields": {
+    "session_data": ".eJxVkMsOgjAQRf-layXQBxZ3bnSh8ZEYX5um1BkgEBtojRrjvwvqQlaT3Mm5ZzJPklmbVTC0-upzqpzXHsiYlGbqH3vv3dGtN-Vit635qZ7fZpOTPdyXzJABUR2hrg4aVZxbJBL9MNWmhEu3cdYUulLGNhD8Uhd8vcHsM1aTzt7nc-3yFjYaYw4pT2RIIxZTI0MJgBJCwZIY09EZoyQNKUs4UsFRaMpQcmB0hBiLqC39-T_VlXZeVTYrLn8H9n5AXm_V4l2a:1uCIHV:KLKExY_b0Xhz03oy6MNVJ4whQq8YgtPEN64AMfYzS1E",
+    "expire_date": "2025-05-20T13:24:21.018Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "nc1n1mionfwz6t760qoy0fr0rhd0r214",
+  "fields": {
+    "session_data": ".eJxVkEFqwzAQRe-idWIiS7Wk7EwM7aJgQmi3YiyNLLeqVSwnIYTevXaSRbwa-MP7b5graWNsA64jHEef6zTCiGRLsLtUZ_-FH-6nfq8Pn1U40V_Efti9NXthSrIieib0MeGgOzshYpk1YL6xnxcpmg6CNnHA7JGm7K7NXm-jLmf5kveQ_ARLUeTSblDkqrGUKw7UOUXVC6XSUhSGu8KgLXKGFqlgyjWcC2kAgEnG5FT68N-qA6RRh9h2_dOBixeQv39gml1l:1tdbNO:jkvzrwDDWoU1JkrQhXYWb-XfxxD-fKz3ti2uBaI-4V8",
+    "expire_date": "2025-02-13T20:43:02.538Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "owp58f0t1jyb9a3a6vvk6n15jikubwhr",
+  "fields": {
+    "session_data": "eyJfcGFzc3dvcmRfcmVzZXRfdG9rZW4iOiJjazF3enMtMGRkZmU4NjVjODdlNDU0MmZiMDlkYTViNzU4M2MxZDYifQ:1taijB:MWd7QrXt_b0b46t4RFnZCWks2gUId98xrO2-TqUAOLo",
+    "expire_date": "2025-02-05T21:57:37.763Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "pc3okoy9cwvrdrziafrcrntp7yjn91k1",
+  "fields": {
+    "session_data": "eyJnb29nbGUtb2F1dGgyX3N0YXRlIjoidHVtT1FrOTJ2QXExTDNCS3JxTUZVMTRWcm5zbXlaQkYifQ:1tgrPz:6AUrMI35UV0T6BhNQnRjM_0PFgA99d-l9wfGMo81kXY",
+    "expire_date": "2025-02-22T20:27:11.043Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "q6ffvuf5vsjoaeujbekchwitsrf0y1ow",
+  "fields": {
+    "session_data": ".eJxVkM0OgjAQhN-lZyW0gBRvxkTUiybEiF6apV35sbHRwgGN7y6gBzltMpNvZjMvkhuTa5waaOqCCVtDjWRO1OHcVs_grPeJ3B6TNL6e0ta7x1VerJbrZEMmRPSEaCw-RKk6hI-1DOQVb71hjSxBC2ke6PxU63xrnXg4u0VfPuYLsEUHU8yYClBhCDSgl2zGXB_dyJMzjsAQspC6EjhFPww45z71ImSqc3zF3CikXeivf4jWYGuhTV7e_h4cTUDeHzKCXRw:1tdbNd:FrMb1-7TRSLgcS5d2L2KCEXHaWD9uNbATmHOi9uM4uA",
+    "expire_date": "2025-02-13T20:43:17.088Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "tldqhx63ags47y1y7q87lsnpkcjoyv0v",
+  "fields": {
+    "session_data": ".eJxVkE1vwjAMhv9LzlvVOh8ku3FhB4RAQ9uOkRvstlohgpRpZdp_Xwsc6MnSaz3vY_lXVDFWLT1HPHc1-NRhR-JF4DIstmb1A_3cpWavj6u3Td-7D_Wpv48XeBdPwo-EPyc6-WY3IIWehiWGLzqMmxRDg60P8UTZPU3ZzZu9Xsd6PtqnfI2pHuCAbBSVytkcCmkg2NwSsaVcS2e4nO24cGUO0ikGrVgjSLaKJMyYjS6G0rv_Wt1i6nwbq-bwcODkB-LvH_UdXLE:1uQnx6:Cgrjyo5vVoOJyfEA9op2gXHWqkCooBhf43fVg1gVLTc",
+    "expire_date": "2025-06-29T14:03:16.486Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "zvi09oyk8wzontyqv3ertc4ixf6n1xdt",
+  "fields": {
+    "session_data": ".eJxVkMsKwjAQRf8lay1pHjV1JwqCIOpCQTchTWeaYm3UVFDEf7dVF3Y1cIdzzzBPUnhfVDD05tY4pkNjGiBjgpfdYruZTZfLrXcPOnX7g5vMbKjXdzz405kMiO4IfQtw1WXeIrHsh5mxR6i7TfC2NJW2_grRLw3R1xvNP2M16ex93pngWtgaTARkIlWUxTxhVlEFgAqo5GmC2SjHOM0o46lAJgVKwzgqAZyNEBMZt6U__6e6MqHRlS_K-u_A3g_I6w2Krl1Y:1txJuZ:hgkuQgAe5-P-DWoBCcre2ad9MukRXRM79iMZ-09E16Q",
+    "expire_date": "2025-04-09T06:06:47.898Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "zwlu02ganesiyyll265otofyzw16z8gt",
+  "fields": {
+    "session_data": "eyJnb29nbGUtb2F1dGgyX3N0YXRlIjoiTnZ3WUVwZ0EydTZXd3VheXFqZXpSOXhpOGxaaDJCanEifQ:1tgrR8:H0jpyJ3fgb386JSQoc4OFC5AcY3tEDedPvm9_uQNhVU",
+    "expire_date": "2025-02-22T20:28:22.669Z"
+  }
+}
+]

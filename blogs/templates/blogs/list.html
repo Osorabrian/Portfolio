@@ -5,6 +5,12 @@
 
 {% block content %}
 
+<div id="search-blogs" class="d-flex justify-content-center">
+    <form>
+    <input type="search" placeholder="Search blogs">
+    </form>
+</div>
+
 {% for post in posts %}
 <div id="blog-post">
     <a href="{{post.get_absolute_url}}" id="blog-post-thumbnail">
@@ -37,7 +43,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Reset animation when it completes
     sliderContainer.addEventListener('animationend', function() {
         sliderContainer.style.animation = 'none';
-        sliderContainer.offsetHeight; // Trigger reflow
+        void sliderContainer.offsetHeight; // Trigger reflow
         sliderContainer.style.animation = 'scroll 30s linear infinite';
     });
 });
