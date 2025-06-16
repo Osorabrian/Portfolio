@@ -381,7 +381,7 @@ i{
     align-items: center;
   }
   
-  .education-entry {
+  .education-entry, .experience-entry {
     background: #1c3a4d;
     padding: 1.5rem 2rem;
     border-radius: 12px;
@@ -390,19 +390,19 @@ i{
     box-shadow: 0 0 10px rgba(0, 255, 255, 0.2);
   }
   
-  .education-entry h3 {
+  .education-entry h3, .experience-entry h3 {
     font-size: 1.25rem;
     margin-bottom: 0.5rem;
     color: #00ffff;
   }
   
-  .education-entry p {
+  .education-entry p, .experience-entry p {
     margin: 0;
     font-size: 1rem;
     font-weight: 500;
   }
   
-  .education-entry span {
+  .education-entry span, .experience-entry span {
     display: block;
     margin-top: 0.5rem;
     font-size: 0.95rem;
@@ -427,34 +427,6 @@ i{
     flex-direction: column;
     gap: 2rem;
     align-items: center;
-  }
-  
-  .experience-entry {
-    background: #163042;
-    padding: 1.5rem 2rem;
-    border-radius: 12px;
-    max-width: 600px;
-    width: 100%;
-    box-shadow: 0 0 10px rgba(0, 255, 255, 0.15);
-  }
-  
-  .experience-entry h3 {
-    font-size: 1.2rem;
-    color: #00ffff;
-    margin-bottom: 0.5rem;
-  }
-  
-  .experience-entry p {
-    font-weight: 600;
-    margin: 0;
-    font-size: 1rem;
-  }
-  
-  .experience-entry span {
-    display: block;
-    margin-top: 0.5rem;
-    font-size: 0.95rem;
-    color: #cccccc;
   }
 
 #blog-post{
