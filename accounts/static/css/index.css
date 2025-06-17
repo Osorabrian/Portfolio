@@ -164,15 +164,15 @@ i{
     max-width: 280px;
     margin: auto;
     float: center;
-    border: 1px solid rgba(255, 255, 255, 0.44);
+    border: 1px solid #4285F4;
 }
 
 .auth-button{
-    border: 1px solid white;
+    border: 1px solid #00ffff;
     padding: 15px;
     text-decoration: none;
     color: white;
-    background-color: black;
+    background-color: #1c3a4d;
     min-width: 200px;
 }
 
@@ -192,10 +192,10 @@ i{
 #login-div{
     max-width: 500px;
     margin-top: 140px;
-    background-color: rgba(255, 255, 255, 0.10);
+    background-color: black;
     padding: 40px 40px;
     box-sizing: border-box;
-    border: 1px solid rgba(255, 255, 255, 0.44);
+    border: 1px solid #00ffff;
 }
 
 #contact-form{
@@ -236,10 +236,10 @@ i{
 #signup-form{
     max-width: 600px;
     margin-top: 40px;
-    background-color: rgba(255, 255, 255, 0.10);
+    background-color: black;
     padding: 40px 40px;
     box-sizing: border-box;
-    border: 1px solid rgba(255, 255, 255, 0.44);
+    border: 1px solid #00ffff;
 }
 
 .form-control{
@@ -252,7 +252,7 @@ i{
     background-color: rgba(255, 255, 255, 0.10);
     padding: 40px 40px;
     box-sizing: border-box;
-    border: 1px solid rgba(255, 255, 255, 0.44);
+    border: 1px solid #00ffff;
 }
 
 #dropdown-menu {
@@ -685,6 +685,21 @@ i{
     line-height: 1.3;
   }
 
+  #signup-form{
+    margin-top: 0px;
+    border: 0px;
+  }
+
+  #login-div{
+    margin-top: 0px;
+    border: 0px;
+  }
+
+  #forgot-password-div, #reset-password-form, #password-change-form, #edit-profile-form{
+    margin-top: 0px;
+    border: 0px;
+    background-color: black;
+  }
 
 }
 
