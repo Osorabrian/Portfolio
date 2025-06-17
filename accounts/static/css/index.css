@@ -120,9 +120,6 @@ footer{
 #headline #description{
     width: 100%;
     font-size: 2rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     gap: 0.5rem;
 }
 
@@ -149,14 +146,6 @@ nav{
 
 #title{
     font-size: 100px;
-}
-
-#description{
-    font-size: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 0.5rem;
 }
 
 i{
