@@ -255,13 +255,29 @@ i{
     border: 1px solid rgba(255, 255, 255, 0.44);
 }
 
-#dropdown-menu{
-    color: white;
-    background-color: rgba(255, 255, 255, 0.50);
-    box-sizing: border-box;
-    border: 1px solid rgba(255, 255, 255, 0.44);
-    z-index: 30;
-    width: inherit;
+#dropdown-menu {
+    background-color: #1c3a4d;
+    border: 1px solid #00ffff;
+    border-radius: 10px;
+    padding: 0.5rem 0;
+    margin-top: 0.5rem;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.2);
+}
+
+#dropdown-menu .dropdown-item {
+    color: #ffffff;
+    padding: 0.5rem 1.5rem;
+    transition: all 0.3s ease;
+}
+
+#dropdown-menu .dropdown-item:hover {
+    background-color: rgba(0, 255, 255, 0.1);
+    color: #00ffff;
+}
+
+#dropdown-menu hr {
+    border-color: rgba(0, 255, 255, 0.2);
+    margin: 0.5rem 0;
 }
 
 .dropdown-list:hover{
