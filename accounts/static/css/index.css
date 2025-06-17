@@ -49,9 +49,18 @@ footer{
 }
 
 #project-card{
-    background-color: #1c3a4d;
     max-width: 440px;
     border: 1px solid #00ffff;
+    background: rgba(28, 58, 77, 0.3);
+    backdrop-filter: blur(10px) saturate(180%);
+    -webkit-backdrop-filter: blur(10px) saturate(180%);
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 30px rgba(0, 255, 255, 0.3);
 }
 
 #project-card-title{
