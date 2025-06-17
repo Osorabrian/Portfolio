@@ -6,7 +6,6 @@
           <h3>{{ education.school }}</h3>
           <p>{{ education.course }}</p>
           <span>{{ education.start_date|date:"F Y" }} - {% if education.end_date %}{{ education.end_date|date:"F Y" }}{% else %}Present{% endif %}</span>
-          <p class="mt-2">{{ education.description }}</p>
         </div>
       {% endfor %}
     </div>
