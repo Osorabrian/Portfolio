@@ -1,11 +1,19 @@
 {% extends 'base.html'%}
+{% load thumbnail %}
 
 {% block title%} {{post.title}} {% endblock %}
 
 {% block content%}
-    <h1>{{post.title}}</h1>
-    <p class="date">
-        Published {{post.published}} by {{post.author}}
-    </p>
-    {{post.content|linebreaks}}
+<div id="blog-post-detail">
+    <h1 class="text-center">{{post.title}}</h1>
+    <div style="text-align: center;">
+        <img src="{% thumbnail post.thumbnail 320x0%}" alt="{{post.title}}" id="thumbnail" class="float-center">
+    </div>
+    <div class="my-3">
+        <em id="blog-post-date">
+            Published {{post.published}} by {{post.author}}
+        </em>
+    </div>
+    <p>{{post.content}}</p>
+</div>
 {% endblock %}
