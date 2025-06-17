@@ -344,7 +344,7 @@ i{
     flex: 1;
   }
 
-  #search-projects-btn{
+  #search-projects-btn, #search-blogs-button{
     border: 1px solid #00ffff;
     border-radius: 10px;
     height: 40px;

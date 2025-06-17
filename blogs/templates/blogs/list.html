@@ -6,12 +6,13 @@
 {% block content %}
 
 {% if tag %}
-<h2 class="text-center" style="color: #00ffff">Posts tagged with "{{ tag.name }}"</h2>
+    <h2 class="text-center" style="color: #00ffff">Posts tagged with "{{ tag.name }}"</h2>
 {% endif %}
 
 <div id="search-blogs" class="d-flex justify-content-center">
     <form>
-    <input type="search" placeholder="Search blogs">
+        <input type="search" placeholder="Search blogs" id="search-blogs-input">
+        <button type="submit" id="search-blogs-button">Search</button>
     </form>
 </div>
 
