@@ -10,8 +10,9 @@
 {% endif %}
 
 <div id="search-blogs" class="d-flex justify-content-center">
-    <form>
-        <input type="search" placeholder="Search blogs" id="search-blogs-input">
+    <form method="POST" class="d-flex m-5 justify-content-center">
+        {% csrf_token %}
+        {{form}}
         <button type="submit" id="search-blogs-button">Search</button>
     </form>
 </div>
