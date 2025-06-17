@@ -29,9 +29,9 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
           {% if request.user.is_authenticated %}
             <ul class="navbar-nav mx-auto">
-              <li class="nav-item"><a href="{% url "about:about" %}" class="nav-link text-white fs-5">About</a></li>
-              <li class="nav-item"><a href="{% url "projects" %}" class="nav-link text-white fs-5">Projects</a></li>
-              <li class="nav-item"><a href="{% url "blogs:post_list" %}" class="nav-link text-white fs-5">Blogs</a></li>
+              <li class="nav-item"><a href="{% url "about:about" %}" class="nav-link text-white fs-5 {% if request.resolver_match.url_name == 'about' %}active{% endif %}">About</a></li>
+              <li class="nav-item"><a href="{% url "projects" %}" class="nav-link text-white fs-5 {% if request.resolver_match.url_name == 'projects' %}active{% endif %}">Projects</a></li>
+              <li class="nav-item"><a href="{% url "blogs:post_list" %}" class="nav-link text-white fs-5 {% if request.resolver_match.namespace == 'blogs' %}active{% endif %}">Blogs</a></li>
             </ul>
 
               <ul class="navbar-nav">
@@ -48,9 +48,9 @@
                   </button>
 
                   <ul class="dropdown-menu" id="dropdown-menu">
-                    <li><a href="{% url "profile" %}" class="dropdown-item text-white bg-transparent">Edit Profile</a></li>
+                    <li><a href="{% url "profile" %}" class="dropdown-item text-white bg-transparent nav-link">Edit Profile</a></li>
                     <hr>
-                    <li><a href="{% url "password_change"%}" class="dropdown-item text-white bg-transparent">Change Password</a></li>
+                    <li><a href="{% url "password_change"%}" class="dropdown-item text-white bg-transparent nav-link">Change Password</a></li>
                     <hr>
                     <li>
                       <form method="post" action={% url "logout" %}>
