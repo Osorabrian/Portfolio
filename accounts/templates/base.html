@@ -64,8 +64,8 @@
               </ul>
             {% else %}
               <ul class="navbar-nav ms-auto">
-                <a href="{% url "login" %}" class="nav-link text-white mt-2 nav-text fs-6">Log In</a>
-                <a href="{% url "user_registration" %}" class="nav-link text-white mt-2 fs-6">Sign Up</a>
+                <a href="{% url "login" %}" class="nav-link text-white mt-2 nav-text fs-6 {% if request.resolver_match.url_name == 'login' %}active{% endif %}">Log In</a>
+                <a href="{% url "user_registration" %}" class="nav-link text-white mt-2 fs-6 {% if request.resolver_match.url_name == 'user_registration' %}active{% endif %}">Sign Up</a>
               </ul>
           {% endif %}
       </div>
