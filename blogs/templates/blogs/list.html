@@ -5,6 +5,10 @@
 
 {% block content %}
 
+{% if tag %}
+<h2 class="text-center" style="color: #00ffff">Posts tagged with "{{ tag.name }}"</h2>
+{% endif %}
+
 <div id="search-blogs" class="d-flex justify-content-center">
     <form>
     <input type="search" placeholder="Search blogs">
@@ -18,6 +22,7 @@
     </a>
     <div id="blog-post-content">
     <h1><a href="{{post.get_absolute_url}}" class="blog-post-title">{{post.title}}</a></h1>
+    <p>{% for tag in post.tags.all %}<a href="{% url 'blogs:post_list_by_tag' tag.slug %}" id="blog-post-tag">{{tag.name}}</a>{% if not forloop.last %} {% endif %}{% endfor %}</p>
     <em>Published on {{post.published|date:"d M Y"}} by {{post.author}}</em>
     <p>{{post.content|truncatewords:40|linebreaks}}</p>
     <p><a href="{{post.get_absolute_url}}">Read more>></a></p>

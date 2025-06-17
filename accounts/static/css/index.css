@@ -525,6 +525,15 @@ i{
   font-size: 1.0rem;
 }
 
+#blog-post-tag{
+  color: #00ffff;
+  text-decoration: none;
+  border: 1px solid #00ffff;
+  background-color: #1c3a4d;
+  padding: 0.2rem;
+  border-radius: 10px;
+}
+
 
 @media screen and (max-width: 1200px) {
   #blogs-container {
