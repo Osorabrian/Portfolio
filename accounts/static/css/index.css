@@ -363,7 +363,11 @@ i{
     flex: 1;
   }
 
-  #search-projects-btn, #search-blogs-button{
+  #message-sent{
+    padding: 2rem;
+  }
+
+  #search-projects-btn, #search-blogs-button, #message-button{
     border: 1px solid #00ffff;
     border-radius: 10px;
     height: 40px;
@@ -698,6 +702,12 @@ i{
   }
 
   #forgot-password-div, #reset-password-form, #password-change-form, #edit-profile-form{
+    margin-top: 0px;
+    border: 0px;
+    background-color: black;
+  } 
+
+  #contact-form{
     margin-top: 0px;
     border: 0px;
     background-color: black;
