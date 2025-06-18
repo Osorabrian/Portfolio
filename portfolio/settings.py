@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-mi2x^8#0$yoqanfay)5rlj06#09w5p1hk$qw2$$j+%ublf3i+4
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', 'mysite.com', '127.0.0.1', '.vercel.app']
+ALLOWED_HOSTS = ['localhost', 'mysite.com', '127.0.0.1', '0.0.0.0']
 
 # Application definition
 
@@ -167,3 +167,5 @@ SOCIAL_AUTH_PIPELINE = [
     'social_core.pipeline.user.user_details',
 ]
 
+import django_heroku
+django_heroku.settings(locals())
