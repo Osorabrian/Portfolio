@@ -688,11 +688,13 @@ i{
   #signup-form{
     margin-top: 0px;
     border: 0px;
+    background-color: black;
   }
 
   #login-div{
     margin-top: 0px;
     border: 0px;
+    background-color: black;
   }
 
   #forgot-password-div, #reset-password-form, #password-change-form, #edit-profile-form{
