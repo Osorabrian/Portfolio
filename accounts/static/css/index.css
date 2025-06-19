@@ -27,6 +27,12 @@ body{
 
 .icon-white {
   filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(105%) contrast(100%);
+  transition: all 0.3s ease;
+}
+
+.icon-white:hover {
+  filter: invert(100%) sepia(100%) saturate(1000%) hue-rotate(180deg) brightness(100%) contrast(100%);
+  transform: scale(1.2);
 }
 
 footer{
@@ -616,8 +622,8 @@ i{
 }
 
   #portfolio-img {
-    width: 13rem;
-    height: 13rem;
+    width: 12rem;
+    height: 12rem;
     border-radius: 50%;
     margin-top: 0 auto;
     object-fit: cover;
@@ -754,4 +760,16 @@ i{
 
 .nav-link:hover::after {
     transform: scaleX(1);
+}
+
+#socials a {
+  display: inline-block;
+  padding: 8px;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+#socials a:hover {
+  background-color: rgba(0, 255, 255, 0.1);
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.3);
 }
