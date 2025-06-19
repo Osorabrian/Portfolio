@@ -51,7 +51,7 @@ footer{
 
 #project-card{
     max-width: 440px;
-    border: 1px solid #00ffff;
+    border: 0.2px solid #00ffff;
     background: rgba(28, 58, 77, 0.3);
     backdrop-filter: blur(10px) saturate(180%);
     -webkit-backdrop-filter: blur(10px) saturate(180%);
