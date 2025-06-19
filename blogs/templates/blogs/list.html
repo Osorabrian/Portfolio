@@ -17,6 +17,10 @@
     </form>
 </div>
 
+<div id="test-div">
+    <p style="color: red; text-align: center;">This is a test page work in progress</p>
+</div>
+
 {% for post in posts %}
 <div id="blog-post">
     <a href="{{post.get_absolute_url}}" id="blog-post-thumbnail">
@@ -30,6 +34,10 @@
     <p><a href="{{post.get_absolute_url}}">Read more>></a></p>
     </div>    
 </div>
+{% empty %}
+  <div class="mx-auto my-5">
+    <h1 style="color: #00ffff; text-align: center;">No blogs found</h1>
+  </div>
 {% endfor %}
 
 <div style="text-align: center;">
