@@ -16,7 +16,7 @@ class CustomSetPasswordForm(SetPasswordForm):
     new_password2 = forms.CharField(widget=forms.PasswordInput(attrs={'placeholder':'Repeat Password','class':'form-control'}), label="New password confirmation")
 
 class CustomLoginForm(AuthenticationForm):
-    username = forms.CharField(widget=forms.TextInput(attrs={'placeholder':'Username','class':'form-control rounded-0'}))
+    username = forms.CharField(widget=forms.TextInput(attrs={'placeholder':'Username or Email','class':'form-control rounded-0'}), label="Username or Email")
     password = forms.CharField(widget=forms.PasswordInput(attrs={'placeholder':'Password', 'class':'form-control rounded-0'}))
 
 class ContactForm(forms.ModelForm):
