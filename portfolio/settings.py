@@ -148,6 +148,7 @@ DEFAULT_FROM_EMAIL = config('DEFAULT_FROM_EMAIL', default='Brian Osora\'s Portfo
 
 AUTHENTICATION_BACKENDS = [
     'django.contrib.auth.backends.ModelBackend',
+    'accounts.authentication.EmailAuthBackend',
     'social_core.backends.google.GoogleOAuth2'
 ]
 
