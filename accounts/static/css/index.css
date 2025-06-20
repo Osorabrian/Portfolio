@@ -85,6 +85,10 @@ footer{
     font-size: 30px;
 }
 
+.auth-nav{
+  font-size: 20px !important;
+}
+
 #socials{
   margin: 0 auto;
   max-width: 500px;
@@ -670,6 +674,8 @@ i{
   .navbar-brand{
     font-size: 1.9rem !important;
   }
+
+ 
 
   .about-img {
     margin: 0 auto;
