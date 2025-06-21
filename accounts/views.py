@@ -42,7 +42,7 @@ def message(request):
             messages.success(request, "Your message has been sent successfully")
             send_mail(
                 f"Contact from {cd['name']}",
-                cd['message'],
+                f"{cd['message']} by {cd['email']}",
                 cd['email'],
                 ['osorabrian@gmail.com']
             )
