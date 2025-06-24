@@ -1,24 +1,35 @@
-# MY PORTFOLIO
+# My Portfolio
 
-Author: Brian Osora Isaboke
+# Table of Contents
+- [My Portfolio](#my-portfolio)
+- [Table of Contents](#table-of-contents)
+- [Author](#author)
+- [Description](#description)
+  - [Features](#features)
+- [Live Version](#live-version)
+- [Technologies](#technologies)
+- [Installation](#installation)
+- [Screenshots](#screenshots)
+- [Contact](#contact)
 
-## Table of Contents
-- [MY PORTFOLIO](#my-portfolio)
-  - [Table of Contents](#table-of-contents)
-  - [Description](#description)
-  - [Live Version](#live-version)
-  - [Technologies](#technologies)
-  - [Installation](#installation)
-  - [Contact](#contact)
+# Author
+Brian Osora Isaboke
 
-## Description
-This is a personal website built to showcase my skill and talent. This is a full stacjk web app built with HTML, CSS, Python and Django.
+# Description
+This is a personal website built to showcase my skill and talent. 
 
-## Live Version
+## Features
+My portfolio has the following features:
+- Contact form to send me a message to my email
+- Download my Resume
+- About Page
+- Projects Page
+- Blog Page & Post
+
+# Live Version
 https://www.brianosora.com/
 
-
-## Technologies
+# Technologies
 - Python
 - Django
 - HTML
@@ -30,12 +41,18 @@ https://www.brianosora.com/
 - Django Forms
 - Django Pagination
 
-## Installation
+# Installation
 - Clone the repo
 - Create a virtual environment
 - Install the required packages
 - Run the server
 - Open the browser and navigate to http://127.0.0.1:8000/
 
-## Contact
+# Screenshots
+![Image](https://github.com/user-attachments/assets/87804de7-23c2-4fd0-adee-9a09f860a9c6)
+![Image](https://github.com/user-attachments/assets/1f911a49-c1c6-4530-83d2-34245258d97b)
+
+# Contact
 - Email: brianosora@gmail.com
+- GitHub: https://github.com/brianosora
+- LinkedIn
