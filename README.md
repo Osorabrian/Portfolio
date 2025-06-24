@@ -1,22 +1,24 @@
-## MY PORTFOLIO
+# MY PORTFOLIO
 
 Author: Brian Osora Isaboke
 
-# Table of Contents
-- [Table of Contents](#table-of-contents)
-- [Description](#description)
-- [Live Version](#live-version)
-- [Technologies](#technologies)
-- [In](#in)
+## Table of Contents
+- [MY PORTFOLIO](#my-portfolio)
+  - [Table of Contents](#table-of-contents)
+  - [Description](#description)
+  - [Live Version](#live-version)
+  - [Technologies](#technologies)
+  - [Installation](#installation)
+  - [Contact](#contact)
 
-# Description
+## Description
 This is a personal website built to showcase my skill and talent. This is a full stacjk web app built with HTML, CSS, Python and Django.
 
-# Live Version
+## Live Version
 https://www.brianosora.com/
 
 
-# Technologies
+## Technologies
 - Python
 - Django
 - HTML
@@ -28,4 +30,12 @@ https://www.brianosora.com/
 - Django Forms
 - Django Pagination
 
-# In
+## Installation
+- Clone the repo
+- Create a virtual environment
+- Install the required packages
+- Run the server
+- Open the browser and navigate to http://127.0.0.1:8000/
+
+## Contact
+- Email: brianosora@gmail.com
