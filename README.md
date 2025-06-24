@@ -68,4 +68,4 @@ https://www.brianosora.com/
 # Contact
 - Email: brianosora@gmail.com
 - GitHub: https://github.com/brianosora
-- LinkedIn
+- LinkedIn: https://www.linkedin.com/in/brian-osora/
